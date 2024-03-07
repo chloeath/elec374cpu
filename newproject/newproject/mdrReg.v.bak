@@ -1,0 +1,4 @@
+//module mdrReg(
+//	input clock, enable, MDRin
+///	input [31:0] Mdatain, BusMuxOut
+//	output [31:0] BusMuxInMDR

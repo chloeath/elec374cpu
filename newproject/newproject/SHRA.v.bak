@@ -1,0 +1,12 @@
+module SHRA(A, shraresult);
+
+input [31:0] A;
+output [31:0] shraresult;
+
+reg [31:0] shraresult;
+
+always @(A)
+begin
+	shraresult = A << 1;
+end
+endmodule

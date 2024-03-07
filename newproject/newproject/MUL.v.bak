@@ -1,0 +1,42 @@
+module booths_multiplier( 
+	input[31:0] A, //multiplicand
+	input[31:0] B, //multiplier
+	output [63:0] Booth_Mul_Result
+);
+	reg [64:0] temp_product; //temp to hold with sign extension
+	reg [32:0] temp_B //temp to hold with sign extension
+	reg [64:0] M, negM; //M and -M for addition and subtraction
+	
+	integer y;
+	
+	initial begin 
+
+		M = {A,8'b0};			        	//left shift multiplicant by 8 bits 
+		negM = ~M + 1; 					//Two's complement for subtraction
+	
+		temp_B = {B[31],B} 				// sign extend the multiplier
+		
+		P = 0; 						//initilizing the output
+	end
+	
+	
+	always @(A or B)					//start a loop if A or B is high 
+	begin
+		for(i = 0; i< 32; i=i+2)			//going through all bits in multiplicand 
+		begin
+			case(temp_B[i+1:i] - temp_B[i+2]	//take from the sign extended multiplier the first the first three bits
+								//the one that will not be used 
+
+				2'b01, 2'b10: P = P+ M ;	//Case 1 checking bit pairing to see if its 01, or 10, 
+						        	//if so then will be working with a positive number
+				2'b11: P = P +negM; 		//Case 2 checking bit pairing to modifiy it to a negative number
+				2'b00:  ; 			//doing nothing for default dont know if needs to be included 
+			endcase
+			
+			M = M<<2; 				//Shifting M left by 2 for next bit pair
+			negM = negM << negM 			//shifting M left by 2 for next bit pairing
+			P = P >> 2 				//Shifting P to get ready for next addition 
+		end
+		Booth_Mul_Result = P[32:0] 			//moving it from temp value to output 
+	end
+endmodule

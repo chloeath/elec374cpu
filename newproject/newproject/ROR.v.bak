@@ -1,0 +1,9 @@
+module Rotate_Right(
+	input[31:0] bit_to_rotate //value being rotated
+	input[31:0] bits_Rotated //amount of bits A is being rotated
+	output [31:0] rotate_Result
+);
+	
+	assign rotate_Result = (A >> B) | (A << (32-B));
+
+endmodule
