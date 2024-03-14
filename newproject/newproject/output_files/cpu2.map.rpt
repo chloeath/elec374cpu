@@ -1,6 +1,6 @@
 Analysis & Elaboration report for cpu2
-Thu Feb 29 10:05:16 2024
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Thu Mar 07 10:32:36 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -36,22 +36,22 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                  ;
-+-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Feb 29 10:05:16 2024           ;
-; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
-; Revision Name                 ; cpu2                                            ;
-; Top-level Entity Name         ; DataPath                                        ;
-; Family                        ; Cyclone V                                       ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
-; Total registers               ; N/A until Partition Merge                       ;
-; Total pins                    ; N/A until Partition Merge                       ;
-; Total virtual pins            ; N/A until Partition Merge                       ;
-; Total block memory bits       ; N/A until Partition Merge                       ;
-; Total PLLs                    ; N/A until Partition Merge                       ;
-; Total DLLs                    ; N/A until Partition Merge                       ;
-+-------------------------------+-------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Thu Mar 07 10:32:36 2024       ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                 ; cpu2                                        ;
+; Top-level Entity Name         ; DataPath                                    ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
 
 
 +------------------------------------------+
@@ -181,202 +181,202 @@ refer to the applicable agreement for further details.
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Feb 29 10:05:06 2024
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Mar 07 10:32:04 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu2 -c cpu2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file adder.v
-    Info (12023): Found entity 1: adder File: C:/Users/20mvdp/Downloads/newproject/newproject/adder.v Line: 2
+    Info (12023): Found entity 1: adder File: C:/Users/chloe/374project/newproject/newproject/adder.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file bus.v
-    Info (12023): Found entity 1: Bus File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 1
+    Info (12023): Found entity 1: Bus File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
-    Info (12023): Found entity 1: DataPath File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 1
+    Info (12023): Found entity 1: DataPath File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register.v
-    Info (12023): Found entity 1: register File: C:/Users/20mvdp/Downloads/newproject/newproject/register.v Line: 1
+    Info (12023): Found entity 1: register File: C:/Users/chloe/374project/newproject/newproject/register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tutorial_tb.v
-    Info (12023): Found entity 1: tutorial_tb File: C:/Users/20mvdp/Downloads/newproject/newproject/tutorial_tb.v Line: 2
+    Info (12023): Found entity 1: tutorial_tb File: C:/Users/chloe/374project/newproject/newproject/tutorial_tb.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file mdrreg.v
-    Info (12023): Found entity 1: mdrReg File: C:/Users/20mvdp/Downloads/newproject/newproject/mdrReg.v Line: 1
+    Info (12023): Found entity 1: mdrReg File: C:/Users/chloe/374project/newproject/newproject/mdrReg.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tbmdr.v
-    Info (12023): Found entity 1: tbmdr File: C:/Users/20mvdp/Downloads/newproject/newproject/tbmdr.v Line: 2
+    Info (12023): Found entity 1: tbmdr File: C:/Users/chloe/374project/newproject/newproject/tbmdr.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file tbalu.v
-    Info (12023): Found entity 1: tbalu File: C:/Users/20mvdp/Downloads/newproject/newproject/tbalu.v Line: 3
+    Info (12023): Found entity 1: tbalu File: C:/Users/chloe/374project/newproject/newproject/tbalu.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: alu File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 2
-Warning (12018): Entity "AND" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/20mvdp/Downloads/newproject/newproject/AND.v Line: 2
+    Info (12023): Found entity 1: alu File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 2
+Warning (12018): Entity "AND" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/chloe/374project/newproject/newproject/AND.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file and.v
 Info (12021): Found 1 design units, including 1 entities, in source file add.v
-    Info (12023): Found entity 1: ADD File: C:/Users/20mvdp/Downloads/newproject/newproject/ADD.v Line: 2
-Warning (12018): Entity "OR" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/20mvdp/Downloads/newproject/newproject/OR.v Line: 2
+    Info (12023): Found entity 1: ADD File: C:/Users/chloe/374project/newproject/newproject/ADD.v Line: 2
+Warning (12018): Entity "OR" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/chloe/374project/newproject/newproject/OR.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file or.v
-Warning (12018): Entity "NOT" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/20mvdp/Downloads/newproject/newproject/NOT.v Line: 2
+Warning (12018): Entity "NOT" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/chloe/374project/newproject/newproject/NOT.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file not.v
 Info (12021): Found 1 design units, including 1 entities, in source file neg.v
-    Info (12023): Found entity 1: NEG File: C:/Users/20mvdp/Downloads/newproject/newproject/NEG.v Line: 1
+    Info (12023): Found entity 1: NEG File: C:/Users/chloe/374project/newproject/newproject/NEG.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file shl.v
-    Info (12023): Found entity 1: SHL File: C:/Users/20mvdp/Downloads/newproject/newproject/SHL.v Line: 1
+    Info (12023): Found entity 1: SHL File: C:/Users/chloe/374project/newproject/newproject/SHL.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file shr.v
-    Info (12023): Found entity 1: SHR File: C:/Users/20mvdp/Downloads/newproject/newproject/SHR.v Line: 1
+    Info (12023): Found entity 1: SHR File: C:/Users/chloe/374project/newproject/newproject/SHR.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file shra.v
-    Info (12023): Found entity 1: SHRA File: C:/Users/20mvdp/Downloads/newproject/newproject/SHRA.v Line: 1
+    Info (12023): Found entity 1: SHRA File: C:/Users/chloe/374project/newproject/newproject/SHRA.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tbtestalu.v
-    Info (12023): Found entity 1: tbtestalu File: C:/Users/20mvdp/Downloads/newproject/newproject/tbtestalu.v Line: 2
+    Info (12023): Found entity 1: tbtestalu File: C:/Users/chloe/374project/newproject/newproject/tbtestalu.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file and_mod.v
-    Info (12023): Found entity 1: AND_mod File: C:/Users/20mvdp/Downloads/newproject/newproject/AND_mod.v Line: 2
+    Info (12023): Found entity 1: AND_mod File: C:/Users/chloe/374project/newproject/newproject/AND_mod.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file or_mod.v
-    Info (12023): Found entity 1: OR_mod File: C:/Users/20mvdp/Downloads/newproject/newproject/OR_mod.v Line: 2
+    Info (12023): Found entity 1: OR_mod File: C:/Users/chloe/374project/newproject/newproject/OR_mod.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file rol.v
-    Info (12023): Found entity 1: ROL File: C:/Users/20mvdp/Downloads/newproject/newproject/ROL.v Line: 1
+    Info (12023): Found entity 1: ROL File: C:/Users/chloe/374project/newproject/newproject/ROL.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ror.v
-    Info (12023): Found entity 1: ROR File: C:/Users/20mvdp/Downloads/newproject/newproject/ROR.v Line: 1
+    Info (12023): Found entity 1: ROR File: C:/Users/chloe/374project/newproject/newproject/ROR.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mul.v
-    Info (12023): Found entity 1: MUL File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 31
+    Info (12023): Found entity 1: MUL File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file not_mod.v
-    Info (12023): Found entity 1: NOT_mod File: C:/Users/20mvdp/Downloads/newproject/newproject/NOT_mod.v Line: 2
+    Info (12023): Found entity 1: NOT_mod File: C:/Users/chloe/374project/newproject/newproject/NOT_mod.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file sub.v
-    Info (12023): Found entity 1: SUB File: C:/Users/20mvdp/Downloads/newproject/newproject/SUB.v Line: 2
+    Info (12023): Found entity 1: SUB File: C:/Users/chloe/374project/newproject/newproject/SUB.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file div.v
-    Info (12023): Found entity 1: DIV File: C:/Users/20mvdp/Downloads/newproject/newproject/DIV.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(20): created implicit net for "RegisterAImmediate" File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 20
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(42): created implicit net for "BusMuxInIR" File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 42
+    Info (12023): Found entity 1: DIV File: C:/Users/chloe/374project/newproject/newproject/DIV.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(20): created implicit net for "RegisterAImmediate" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 20
+Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(42): created implicit net for "BusMuxInIR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 42
 Info (12127): Elaborating entity "DataPath" for the top level hierarchy
-Info (12128): Elaborating entity "register" for hierarchy "register:RA" File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 20
-Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 46
-Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 48
-Warning (10270): Verilog HDL Case Statement warning at alu.v(37): incomplete case statement has no default case item File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Warning (10240): Verilog HDL Always Construct warning at alu.v(37): inferring latch(es) for variable "Zregin", which holds its previous value in one or more paths through the always construct File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[0]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[1]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[2]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[3]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[4]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[5]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[6]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[7]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[8]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[9]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[10]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[11]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[12]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[13]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[14]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[15]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[16]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[17]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[18]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[19]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[20]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[21]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[22]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[23]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[24]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[25]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[26]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[27]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[28]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[29]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[30]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[31]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[32]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[33]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[34]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[35]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[36]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[37]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[38]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[39]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[40]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[41]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[42]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[43]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[44]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[45]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[46]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[47]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[48]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[49]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[50]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[51]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[52]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[53]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[54]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[55]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[56]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[57]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[58]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[59]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[60]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[61]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[62]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (10041): Inferred latch for "Zregin[63]" at alu.v(37) File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 37
-Info (12128): Elaborating entity "ADD" for hierarchy "alu:alu|ADD:ADD" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 16
-Info (12128): Elaborating entity "AND_mod" for hierarchy "alu:alu|AND_mod:AND_mod" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 17
-Info (12128): Elaborating entity "OR_mod" for hierarchy "alu:alu|OR_mod:OR_mod" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 18
-Info (12128): Elaborating entity "NOT_mod" for hierarchy "alu:alu|NOT_mod:NOT_mod" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 19
-Info (12128): Elaborating entity "NEG" for hierarchy "alu:alu|NEG:NEG" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 20
-Info (12128): Elaborating entity "MUL" for hierarchy "alu:alu|MUL:MUL" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 21
-Warning (10199): Verilog HDL Case Statement warning at MUL.v(59): case item expression never matches the case expression File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 59
-Warning (10230): Verilog HDL assignment warning at MUL.v(59): truncated value with size 33 to match size of target (32) File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 59
-Warning (10199): Verilog HDL Case Statement warning at MUL.v(61): case item expression never matches the case expression File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 61
-Warning (10230): Verilog HDL assignment warning at MUL.v(63): truncated value with size 33 to match size of target (32) File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 63
-Warning (10199): Verilog HDL Case Statement warning at MUL.v(65): case item expression never matches the case expression File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 65
-Warning (10230): Verilog HDL assignment warning at MUL.v(65): truncated value with size 34 to match size of target (32) File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 65
-Warning (10230): Verilog HDL assignment warning at MUL.v(61): truncated value with size 33 to match size of target (32) File: C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v Line: 61
-Info (12128): Elaborating entity "ROR" for hierarchy "alu:alu|ROR:ROR" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 22
-Info (12128): Elaborating entity "ROL" for hierarchy "alu:alu|ROL:ROL" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 23
-Info (12128): Elaborating entity "SHL" for hierarchy "alu:alu|SHL:SHL" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 24
-Info (12128): Elaborating entity "SHR" for hierarchy "alu:alu|SHR:SHR" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 25
-Info (12128): Elaborating entity "SHRA" for hierarchy "alu:alu|SHRA:SHRA" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 26
-Warning (10764): Verilog HDL warning at SHRA.v(10): converting signed shift amount to unsigned File: C:/Users/20mvdp/Downloads/newproject/newproject/SHRA.v Line: 10
-Info (12128): Elaborating entity "SUB" for hierarchy "alu:alu|SUB:SUB" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 27
-Info (12128): Elaborating entity "DIV" for hierarchy "alu:alu|DIV:DIV" File: C:/Users/20mvdp/Downloads/newproject/newproject/alu.v Line: 28
-Info (12128): Elaborating entity "Bus" for hierarchy "Bus:bus" File: C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v Line: 55
-Warning (10240): Verilog HDL Always Construct warning at Bus.v(15): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 15
-Info (10041): Inferred latch for "q[0]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[1]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[2]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[3]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[4]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[5]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[6]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[7]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[8]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[9]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[10]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[11]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[12]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[13]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[14]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[15]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[16]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[17]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[18]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[19]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[20]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[21]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[22]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[23]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[24]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[25]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[26]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[27]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[28]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[29]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[30]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[31]" at Bus.v(39) File: C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v Line: 39
+Info (12128): Elaborating entity "register" for hierarchy "register:RA" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 20
+Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 46
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 48
+Warning (10270): Verilog HDL Case Statement warning at alu.v(37): incomplete case statement has no default case item File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Warning (10240): Verilog HDL Always Construct warning at alu.v(37): inferring latch(es) for variable "Zregin", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[0]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[1]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[2]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[3]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[4]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[5]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[6]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[7]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[8]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[9]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[10]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[11]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[12]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[13]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[14]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[15]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[16]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[17]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[18]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[19]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[20]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[21]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[22]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[23]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[24]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[25]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[26]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[27]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[28]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[29]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[30]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[31]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[32]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[33]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[34]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[35]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[36]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[37]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[38]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[39]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[40]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[41]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[42]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[43]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[44]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[45]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[46]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[47]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[48]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[49]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[50]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[51]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[52]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[53]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[54]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[55]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[56]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[57]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[58]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[59]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[60]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[61]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[62]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (10041): Inferred latch for "Zregin[63]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
+Info (12128): Elaborating entity "ADD" for hierarchy "alu:alu|ADD:ADD" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 16
+Info (12128): Elaborating entity "AND_mod" for hierarchy "alu:alu|AND_mod:AND_mod" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 17
+Info (12128): Elaborating entity "OR_mod" for hierarchy "alu:alu|OR_mod:OR_mod" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 18
+Info (12128): Elaborating entity "NOT_mod" for hierarchy "alu:alu|NOT_mod:NOT_mod" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 19
+Info (12128): Elaborating entity "NEG" for hierarchy "alu:alu|NEG:NEG" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 20
+Info (12128): Elaborating entity "MUL" for hierarchy "alu:alu|MUL:MUL" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 21
+Warning (10199): Verilog HDL Case Statement warning at MUL.v(31): case item expression never matches the case expression File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 31
+Warning (10230): Verilog HDL assignment warning at MUL.v(31): truncated value with size 33 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 31
+Warning (10199): Verilog HDL Case Statement warning at MUL.v(33): case item expression never matches the case expression File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 33
+Warning (10230): Verilog HDL assignment warning at MUL.v(35): truncated value with size 33 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 35
+Warning (10199): Verilog HDL Case Statement warning at MUL.v(37): case item expression never matches the case expression File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 37
+Warning (10230): Verilog HDL assignment warning at MUL.v(37): truncated value with size 34 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 37
+Warning (10230): Verilog HDL assignment warning at MUL.v(33): truncated value with size 33 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/MUL.v Line: 33
+Info (12128): Elaborating entity "ROR" for hierarchy "alu:alu|ROR:ROR" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 22
+Info (12128): Elaborating entity "ROL" for hierarchy "alu:alu|ROL:ROL" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 23
+Info (12128): Elaborating entity "SHL" for hierarchy "alu:alu|SHL:SHL" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 24
+Info (12128): Elaborating entity "SHR" for hierarchy "alu:alu|SHR:SHR" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 25
+Info (12128): Elaborating entity "SHRA" for hierarchy "alu:alu|SHRA:SHRA" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 26
+Warning (10764): Verilog HDL warning at SHRA.v(10): converting signed shift amount to unsigned File: C:/Users/chloe/374project/newproject/newproject/SHRA.v Line: 10
+Info (12128): Elaborating entity "SUB" for hierarchy "alu:alu|SUB:SUB" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 27
+Info (12128): Elaborating entity "DIV" for hierarchy "alu:alu|DIV:DIV" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 28
+Info (12128): Elaborating entity "Bus" for hierarchy "Bus:bus" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 55
+Warning (10240): Verilog HDL Always Construct warning at Bus.v(15): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 15
+Info (10041): Inferred latch for "q[0]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[1]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[2]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[3]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[4]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[5]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[6]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[7]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[8]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[9]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[10]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[11]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[12]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[13]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[14]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[15]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[16]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[17]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[18]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[19]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[20]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[21]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[22]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[23]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[24]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[25]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[26]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[27]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[28]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[29]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[30]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[31]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info (144001): Generated suppressed messages file C:/Users/20mvdp/Downloads/newproject/newproject/output_files/cpu2.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/chloe/374project/newproject/newproject/output_files/cpu2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 4790 megabytes
-    Info: Processing ended: Thu Feb 29 10:05:16 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 4793 megabytes
+    Info: Processing ended: Thu Mar 07 10:32:36 2024
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:31
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in C:/Users/20mvdp/Downloads/newproject/newproject/output_files/cpu2.map.smsg.
+The suppressed messages can be found in C:/Users/chloe/374project/newproject/newproject/output_files/cpu2.map.smsg.
 
 

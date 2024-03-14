@@ -1,4 +1,4 @@
-// Ripple Carry ADD module
+
 module adder(A, B, Result);
 
 input [31:0] A, B;
@@ -14,7 +14,7 @@ always@(A or B)
 		LocalCarry = 9'd0;
 		for(i = 0; i < 32; i = i + 1)
 		begin
-				Result[i] = A[i]^B[i]^	LocalCarry[i];
+				Result[i] = A[i]^B[i]^	LocalCarry[i];   //ripple carry
 				LocalCarry[i+1] = (A[i]&B[i])|(LocalCarry[i]&(A[i]|B[i]));
 		end
 	end

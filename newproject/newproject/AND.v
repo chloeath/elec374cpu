@@ -1,4 +1,4 @@
-//AND module
+
 module AND (A, B, andresult);
 
 input [31:0] A, B;

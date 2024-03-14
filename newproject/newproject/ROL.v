@@ -1,6 +1,6 @@
 module ROL(
-	input[31:0] A, //value being rotated
-	input[31:0] B, //amount of bits A is being rotated
+	input[31:0] A, 
+	input[31:0] B, 
 	output reg [31:0] rolresult
 );
 	

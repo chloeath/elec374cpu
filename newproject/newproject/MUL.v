@@ -1,31 +1,3 @@
-//module MUL(
-//    input [31:0] A, // multiplicand
-//    input [31:0] B, // multiplier
-//    output reg [63:0] Booth_Mul_Result
-//);
-//    // Extended sizes for handling shifts and sign extension
-//    reg [63:0] M; // Extended multiplicand for addition
-//    reg [63:0] negM; // Two's complement of M for subtraction
-//    reg [64:0] product; // Product register with extra bit for sign extension
-//    integer i;
-//
-//    // Procedure to perform multiplication using Booth's algorithm
-//    always @(A, B) begin
-//        M = {A, 32'b0}; // Place A in the upper half for easy addition
-//        negM = ~M + 1; // Two's complement for subtraction
-//        product = {1'b0, B, 32'b0}; // Initialize product with B and 32 LSBs as 0
-//        
-//        for (i = 0; i < 32; i=i+1) begin
-//            case (product[1:0]) // Evaluate LSB and appended bit
-//                2'b01: product = product + M; // Add M if 01
-//                2'b10: product = product + negM; // Subtract M (add negM) if 10
-//                default: ; // Do nothing for 00 and 11
-//            endcase
-//            product = product >> 1; // Arithmetic right shift for next iteration
-//        end
-//        Booth_Mul_Result = product[64:1]; // Discard extra bit used for sign extension
-//    end
-//endmodule
 
 
 module MUL(

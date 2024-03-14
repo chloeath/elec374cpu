@@ -17,7 +17,7 @@ wire [31:0] BusMuxOut, BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR
 	
 wire [63:0] Zregin;
 
-register RA(clear, clock, RAin, RegisterAImmediate, BusMuxInRA);
+//register RA(clear, clock, RAin, RegisterAImmediate, BusMuxInRA);
 
 register R0(clear, clock, R0in, BusMuxOut, BusMuxInR0);
 register R1(clear, clock, R1in, BusMuxOut, BusMuxInR1);
@@ -47,7 +47,6 @@ mdrReg MDR(clear, clock, MDRin, Read, Mdatain, BusMuxOut, BusMuxInMDR);
 
 alu alu(ops, RYdataout, BusMuxOut, Zregin);
 
-//ADD add(RYdataout, BusMuxOut, Zregin);
 
 Bus bus(BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO, 

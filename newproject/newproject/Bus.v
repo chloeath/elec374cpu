@@ -13,7 +13,6 @@ reg [31:0]q;
 
 always @ (*) begin
 	if(RAout) q = BusMuxInRA;
-	
 	if(R0out) q = BusMuxInR0;
 	if(R1out) q = BusMuxInR1;
 	if(R2out) q = BusMuxInR2;

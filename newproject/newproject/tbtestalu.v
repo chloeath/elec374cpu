@@ -1,5 +1,5 @@
 `timescale 1ns/10ps
-module tbtestalu();
+module tbdatapath();
 reg clock, clear; 
 
 reg RAout, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, R9out, R10out, R11out, R12out, R13out, R14out, R15out, 
@@ -37,14 +37,13 @@ always @(present_state) begin
 	case(present_state)
 		init: begin
 			clear <= 1; Read <= 1;
-			Mdatain <= 8'h00; ops <= 5'b00101;
+			Mdatain <= 8'h00; opcode <= 5'b00101;
 			RZLOout <= 0; MDRout <= 0; R1out <= 0; MDRin <= 0; R1in <= 0; R2in <= 0; R2out <= 0; RZin <= 0; RYin <= 0; RYout <= 0;
 			RZHIout <= 0; HIin <= 0;
 			#10 clear <= 0;
 		end
 		T0: begin		
-			//Mdatain <= 32'b1001; MDRin <= 1;
-			Mdatain <= 32'hfffffffd; MDRin <= 1; //for testing SHR AND SHRA
+			Mdatain <= 32'hfffffffd; MDRin <= 1; 
 			#15 Mdatain <= 8'h0000; MDRin <= 0;	
 		end
 		T1: begin
