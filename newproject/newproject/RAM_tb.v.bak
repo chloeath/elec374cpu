@@ -1,0 +1,82 @@
+`timescale 1 ps / 1 ps
+
+module ram_testbench;
+
+    // Test bench signals
+    reg [7:0]  address;
+    reg        clock;
+    reg [31:0] data;
+    reg        wren;
+    wire [31:0] q;
+
+    // Instantiate the RAM module
+    RAM uut (
+        .address(address),
+        .clock(clock),
+        .data(data),
+        .wren(wren),
+        .q(q)
+    );
+
+    // Clock generation
+    initial begin
+        clock = 0;
+        forever #5 clock = ~clock; // Generate a clock with a period of 10ps
+    end
+
+    // Test sequence
+    initial begin
+        // Initialize signals
+        address = 0;
+        data = 0;
+        wren = 0;
+
+        // Wait for the global reset
+        #100;
+        
+        // Write some data to address 0
+        address = 8'h00;
+        data = 32'hA5A5A5A5;
+        wren = 1;
+        #10; // Wait for a clock edge
+        
+        // Disable writing to take the next reading
+        wren = 0;
+        #10; // Wait for the data to settle
+        
+        // Change address to read the data back
+        address = 8'h00;
+        #10; // Wait for a clock edge to read the data back
+        
+        // Check if the written data matches the read data
+        if (q !== 32'hA5A5A5A5) begin
+            $display("Test failed for address 0. Expected 0xA5A5A5A5, got %h", q);
+        end else begin
+            $display("Test passed for address 0.");
+        end
+
+        // Write some data to address 1
+        address = 8'h01;
+        data = 32'h5A5A5A5A;
+        wren = 1;
+        #10; // Wait for a clock edge
+        
+        // Disable writing to take the next reading
+        wren = 0;
+        #10; // Wait for the data to settle
+        
+        // Change address to read the data back
+        address = 8'h01;
+        #10; // Wait for a clock edge to read the data back
+        
+        // Check if the written data matches the read data
+        if (q !== 32'h5A5A5A5A) begin
+            $display("Test failed for address 1. Expected 0x5A5A5A5A, got %h", q);
+        end else begin
+            $display("Test passed for address 1.");
+        end
+
+        $finish; // End the simulation
+    end
+
+endmodule

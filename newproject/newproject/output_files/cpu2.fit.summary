@@ -1,16 +1,16 @@
-Fitter Status : Successful - Tue Feb 27 19:20:10 2024
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Fitter Status : Successful - Mon Mar 18 11:37:18 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : cpu2
-Top-level Entity Name : DataPath
+Top-level Entity Name : RAM
 Family : Cyclone V
 Device : 5CEBA2F17A7
 Timing Models : Final
 Logic utilization (in ALMs) : 1 / 9,430 ( < 1 % )
 Total registers : 0
-Total pins : 91 / 128 ( 71 % )
+Total pins : 74 / 128 ( 58 % )
 Total virtual pins : 0
-Total block memory bits : 0 / 1,802,240 ( 0 % )
-Total RAM Blocks : 0 / 176 ( 0 % )
+Total block memory bits : 8,192 / 1,802,240 ( < 1 % )
+Total RAM Blocks : 1 / 176 ( < 1 % )
 Total DSP Blocks : 0 / 25 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

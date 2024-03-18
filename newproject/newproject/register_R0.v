@@ -11,13 +11,13 @@ initial q = 32'b0;
 // Synchronous reset, data load on rising edge of clock
 always @(posedge clk) begin
     if (clr) begin
-        Q <= 32'b0; // Clear the register if clr is high
+        q <= 32'b0; // Clear the register if clr is high
     end else if (enable) begin
-        Q <= BusMuxOut; // Load the data into the register if enabled
+        q <= BusMuxOut; // Load the data into the register if enabled
     end
 end
 
 // Output zero when BAout is asserted
-assign BusMuxIn_R0 = (BAout) ? 32'b0 : Q;
+assign BusMuxIn_R0 = (BAout) ? 32'b0 : q;
 
 endmodule

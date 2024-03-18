@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA2F17A7
-set_global_assignment -name TOP_LEVEL_ENTITY DataPath
+set_global_assignment -name TOP_LEVEL_ENTITY RAM
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:25:06  FEBRUARY 08, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -56,7 +56,7 @@ set_global_assignment -name VERILOG_FILE register.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tbtestalu -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tbld -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME tutorial_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tutorial_tb
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "500 ns" -section_id tutorial_tb
@@ -80,18 +80,11 @@ set_global_assignment -name VERILOG_FILE NEG.v
 set_global_assignment -name VERILOG_FILE SHL.v
 set_global_assignment -name VERILOG_FILE SHR.v
 set_global_assignment -name VERILOG_FILE SHRA.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VERILOG_FILE tbtestalu.v
-set_global_assignment -name EDA_TEST_BENCH_FILE tutorial_tb.v -section_id tutorial_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE tbmdr.v -section_id tbmdr
-set_global_assignment -name EDA_TEST_BENCH_FILE tbalu.v -section_id tbalu
 set_global_assignment -name EDA_TEST_BENCH_NAME tbtestalu -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tbtestalu
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "600 ns" -section_id tbtestalu
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tbtestalu -section_id tbtestalu
-set_global_assignment -name EDA_TEST_BENCH_FILE tbtestalu.v -section_id tbtestalu
 set_global_assignment -name VERILOG_FILE AND_mod.v
 set_global_assignment -name VERILOG_FILE OR_mod.v
 set_global_assignment -name VERILOG_FILE ROL.v
@@ -100,4 +93,27 @@ set_global_assignment -name VERILOG_FILE MUL.v
 set_global_assignment -name VERILOG_FILE NOT_mod.v
 set_global_assignment -name VERILOG_FILE SUB.v
 set_global_assignment -name VERILOG_FILE DIV.v
+set_global_assignment -name VERILOG_FILE register_R0.v
+set_global_assignment -name VERILOG_FILE con_ff.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE RAM_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME RAM_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_tb
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "500 ns" -section_id RAM_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_tb -section_id RAM_tb
+set_global_assignment -name QIP_FILE RAM.qip
+set_global_assignment -name VERILOG_FILE MDMux.v
+set_global_assignment -name VERILOG_FILE MAR.v
+set_global_assignment -name VERILOG_FILE tbld.v
+set_global_assignment -name EDA_TEST_BENCH_FILE tutorial_tb.v -section_id tutorial_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE tbmdr.v -section_id tbmdr
+set_global_assignment -name EDA_TEST_BENCH_FILE tbalu.v -section_id tbalu
+set_global_assignment -name EDA_TEST_BENCH_FILE tbtestalu.v -section_id tbtestalu
+set_global_assignment -name EDA_TEST_BENCH_FILE RAM_tb.v -section_id RAM_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME tbld -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tbld
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tbld -section_id tbld
+set_global_assignment -name EDA_TEST_BENCH_FILE tbld.v -section_id tbld
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

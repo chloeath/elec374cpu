@@ -7,438 +7,49 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/20mvdp/Downloads/newproject/newproject/simulation/modelsim
-vADD
-Z1 !s110 1709219128
+Z0 dC:/Users/chloe/374project/newproject/newproject/simulation/modelsim
+vRAM
+Z1 !s110 1710782036
 !i10b 1
-!s100 jjS_=4;VWJ?7Un^aeaj:S0
-I:@?7?nln`iLm[g;15F=ke0
+!s100 9B0;GB3hDV8bjGZ?gmZYS1
+I`Uf8fWc4Sh@DN[Pd<V>dm2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1709214626
-8C:/Users/20mvdp/Downloads/newproject/newproject/ADD.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/ADD.v
-L0 2
-Z4 OV;L;10.5b;63
+w1710427895
+8C:/Users/chloe/374project/newproject/newproject/RAM.v
+FC:/Users/chloe/374project/newproject/newproject/RAM.v
+L0 39
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1709219128.000000
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/ADD.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/ADD.v|
+Z4 !s108 1710782036.000000
+!s107 C:/Users/chloe/374project/newproject/newproject/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/RAM.v|
 !i113 1
-Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/Users/20mvdp/Downloads/newproject/newproject
-Z8 tCvgOpt 0
-n@a@d@d
-valu
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject
+Z7 tCvgOpt 0
+n@r@a@m
+vtbld
 R1
 !i10b 1
-!s100 hNb9B^OKmZoke;DLP<PeT2
-IFSk8[fz[X>WXURG1Xnmc20
+!s100 3;3ho9_kAkhZ7bO2gOFJ03
+I;HCmc3<@G4gD7K3P<gU0R3
 R2
 R0
-w1709216266
-8C:/Users/20mvdp/Downloads/newproject/newproject/alu.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/alu.v
+w1710782002
+8C:/Users/chloe/374project/newproject/newproject/tbld.v
+FC:/Users/chloe/374project/newproject/newproject/tbld.v
 L0 2
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/alu.v|
-!i113 1
-R6
-R7
-R8
-vAND_mod
-Z9 !s110 1709219129
-!i10b 1
-!s100 =i1;4KAfWf4i73P;if>_i2
-IghniZR]Zb=7XLT82o<0mN2
-R2
-R0
 R3
-8C:/Users/20mvdp/Downloads/newproject/newproject/AND_mod.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/AND_mod.v
-L0 2
-R4
 r1
 !s85 0
 31
-Z10 !s108 1709219129.000000
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/AND_mod.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/AND_mod.v|
+R4
+!s107 C:/Users/chloe/374project/newproject/newproject/tbld.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/tbld.v|
 !i113 1
-R6
-R7
-R8
-n@a@n@d_mod
-vBus
-R1
-!i10b 1
-!s100 ]h4UUbmS7W:QLf6AMlk1N2
-Io1dZZOUBacjEQBf7?1z@c2
-R2
-R0
-R3
-8C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/Bus.v
-L0 1
-R4
-r1
-!s85 0
-31
 R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/Bus.v|
-!i113 1
 R6
 R7
-R8
-n@bus
-vDataPath
-R1
-!i10b 1
-!s100 AWPRK?:S=hB@1ljQ>`6`Q0
-IF^=M7fkJ?BQODCP9Z8Fi<0
-R2
-R0
-Z11 w1709214627
-8C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/DataPath.v|
-!i113 1
-R6
-R7
-R8
-n@data@path
-vDIV
-R9
-!i10b 1
-!s100 HL0mDoh0XdjY4^:5Q=K=10
-I16TQOOnccmzjI6^EfB4Ib3
-R2
-R0
-w1709217765
-8C:/Users/20mvdp/Downloads/newproject/newproject/DIV.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/DIV.v
-L0 1
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/DIV.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/DIV.v|
-!i113 1
-R6
-R7
-R8
-n@d@i@v
-vmdrReg
-R1
-!i10b 1
-!s100 n=ha6ZKdONmfKHCI?nAa@0
-IUkXO6ebhYa1P9ALBkH7V;2
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/mdrReg.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/mdrReg.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/mdrReg.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/mdrReg.v|
-!i113 1
-R6
-R7
-R8
-nmdr@reg
-vMUL
-R9
-!i10b 1
-!s100 2?kJnYO6jIPYDcDdNoJdT3
-IQKFQ:C8KcA1z[YO[dEG>M3
-R2
-R0
-w1709218461
-8C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/MUL.v
-L0 31
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/MUL.v|
-!i113 1
-R6
-R7
-R8
-n@m@u@l
-vNEG
-R1
-!i10b 1
-!s100 0gWnRH;eB016:<Nj?bjVd3
-IKPcGkJI7Vg`]=BmT@kYB50
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/NEG.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/NEG.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/NEG.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/NEG.v|
-!i113 1
-R6
-R7
-R8
-n@n@e@g
-vNOT_mod
-R9
-!i10b 1
-!s100 d304CD_L>0Ab6S`MLSF7G2
-IjQoKB4kZ@WfV6@0J2R4@63
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/NOT_mod.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/NOT_mod.v
-L0 2
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/NOT_mod.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/NOT_mod.v|
-!i113 1
-R6
-R7
-R8
-n@n@o@t_mod
-vOR_mod
-R9
-!i10b 1
-!s100 XbE86ZGI:W<NZAAYdBAz>0
-II9ao:L@9N3VR^e=8?>7Ic1
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/OR_mod.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/OR_mod.v
-L0 2
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/OR_mod.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/OR_mod.v|
-!i113 1
-R6
-R7
-R8
-n@o@r_mod
-vregister
-R1
-!i10b 1
-!s100 :MULHfDHL[OWdRU[^d_hJ1
-ImD52SL;NFz?AE0S=]Kk<O2
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/register.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/register.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/register.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/register.v|
-!i113 1
-R6
-R7
-R8
-vROL
-R9
-!i10b 1
-!s100 OKIZQiTf0UI:X2hW76;XV1
-Ii]RM:0BWh_hZAfi?S_>K<2
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/ROL.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/ROL.v
-L0 1
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/ROL.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/ROL.v|
-!i113 1
-R6
-R7
-R8
-n@r@o@l
-vROR
-R9
-!i10b 1
-!s100 _E0O_9Wo5^;7fIA^I;h`]2
-IF_DWgNKOfNVcL9HAoz@171
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/ROR.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/ROR.v
-L0 1
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/ROR.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/ROR.v|
-!i113 1
-R6
-R7
-R8
-n@r@o@r
-vSHL
-R1
-!i10b 1
-!s100 DLAhRVQ<V`d7?lGMfV:_J2
-IjB@inaBG=E7:_f_X9Ooo10
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/SHL.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/SHL.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/SHL.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/SHL.v|
-!i113 1
-R6
-R7
-R8
-n@s@h@l
-vSHR
-R1
-!i10b 1
-!s100 :leKgCH=6h`m?0oj3TVo92
-IinI_5PB:z:G25cmZo^g5?0
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/SHR.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/SHR.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/SHR.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/SHR.v|
-!i113 1
-R6
-R7
-R8
-n@s@h@r
-vSHRA
-R9
-!i10b 1
-!s100 dYmMhmZDEeJV[2`=MG9DP2
-IF1S7nc9Oo14koEVf2o5X;1
-R2
-R0
-R11
-8C:/Users/20mvdp/Downloads/newproject/newproject/SHRA.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/SHRA.v
-L0 1
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/SHRA.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/SHRA.v|
-!i113 1
-R6
-R7
-R8
-n@s@h@r@a
-vSUB
-R9
-!i10b 1
-!s100 eU2>iaRQ8>JFE5BeIbWXM3
-IU42VbnU@Y@S4J:LXADA:R1
-R2
-R0
-w1709215714
-8C:/Users/20mvdp/Downloads/newproject/newproject/SUB.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/SUB.v
-L0 2
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/SUB.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/SUB.v|
-!i113 1
-R6
-R7
-R8
-n@s@u@b
-vtbtestalu
-R9
-!i10b 1
-!s100 4KaT=21_=5[DL5e@3ClFX0
-Ih8PTC`RljVcKcMhA4UYo73
-R2
-R0
-w1709219106
-8C:/Users/20mvdp/Downloads/newproject/newproject/tbtestalu.v
-FC:/Users/20mvdp/Downloads/newproject/newproject/tbtestalu.v
-L0 2
-R4
-r1
-!s85 0
-31
-R10
-!s107 C:/Users/20mvdp/Downloads/newproject/newproject/tbtestalu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20mvdp/Downloads/newproject/newproject|C:/Users/20mvdp/Downloads/newproject/newproject/tbtestalu.v|
-!i113 1
-R6
-R7
-R8

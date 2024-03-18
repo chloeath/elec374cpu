@@ -48,29 +48,10 @@ always @(*) begin
 		5'b01010: Zregin = shraresult;
 		5'b01011: Zregin = divresult;
 		5'b01100: Zregin = subresult;
-//		5'b01101: x = bmi_13;
-//		5'b01110: q = bmi_14;
-//		5'b01111: q = bmi_15;
-//		5'b10000: q = bmi_16;
-//		5'b10001: q = bmi_17;
-//		5'b10010: q = bmi_18;
-//		5'b10011: q = bmi_19;
-//		5'b10100: q = bmi_20;
-//		5'b10101: q = bmi_21;
-//		5'b10110: q = bmi_22;
-//		5'b10111: q = bmi_23;
-//		5'b11000: q = bmi_24;
-//		5'b11001: q = bmi_25;
-//		5'b11010: q = bmi_26;
-//		5'b11011: q = bmi_27;
-//		5'b11100: q = bmi_28;
-//		5'b11101: q = bmi_29;
-//		5'b11110: q = bmi_30;
-//		5'b11111: q = bmi_31;
-	endcase 
+
+endcase
 end
 
 
-//assign Zregin = x;
 
 endmodule

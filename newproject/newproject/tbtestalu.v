@@ -37,7 +37,7 @@ always @(present_state) begin
 	case(present_state)
 		init: begin
 			clear <= 1; Read <= 1;
-			Mdatain <= 8'h00; opcode <= 5'b00101;
+			Mdatain <= 8'h00; ops <= 5'b00101;
 			RZLOout <= 0; MDRout <= 0; R1out <= 0; MDRin <= 0; R1in <= 0; R2in <= 0; R2out <= 0; RZin <= 0; RYin <= 0; RYout <= 0;
 			RZHIout <= 0; HIin <= 0;
 			#10 clear <= 0;

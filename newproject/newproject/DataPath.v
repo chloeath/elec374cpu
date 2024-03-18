@@ -7,13 +7,13 @@ module DataPath(
 	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, PORTout,
 	
 	input RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in, 
-	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, PORTin, Read
+	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, PORTin, Read, Write
 	
 	);
 
 wire [31:0] BusMuxOut, BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, RYdataout, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO, 
-	BusMuxInPC, BusMuxInMDR, BusMuxInPort;
+	BusMuxInPC, BusMuxInMDR, BusMuxInPort, Address;
 	
 wire [63:0] Zregin;
 
@@ -42,8 +42,16 @@ register PC(clear, clock, PCin, BusMuxOut, BusMuxInPC);
 register IR(clear, clock, IRin, BusMuxOut, BusMuxInIR);
 register HI(clear, clock, HIin, BusMuxOut, BusMuxInHI);
 register LO(clear, clock, LOin, BusMuxOut, BusMuxInLO);
-	
-mdrReg MDR(clear, clock, MDRin, Read, Mdatain, BusMuxOut, BusMuxInMDR);
+
+MDMux MDMUX(BusMuxIn, Mdatain, Read); 	
+mdrReg MDR(clear, clock, MDRin, Read, MDMuxOut, BusMuxInMDR);
+MAR MAR (BusMuxIn, MarIN, clock, clear, address);
+RAM RAM(.address(address),
+        .clock(clock),
+        .data(BusMuxInMDR),
+        .wren(Write),
+        .q(q)
+    );
 
 alu alu(ops, RYdataout, BusMuxOut, Zregin);
 

@@ -1,0 +1,7 @@
+module MDMux(
+input wire BusMuxOut[31:0],
+input wire Mdatain[31:0],
+input wire read,
+output wire MDMuxOut[31:0]
+);
+assign MDMuxOut = (read == 1'b0) ? BusMuxOut : Mdatain;

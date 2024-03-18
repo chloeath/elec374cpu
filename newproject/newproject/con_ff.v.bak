@@ -1,0 +1,18 @@
+module con_ff(
+	input wire[31:0] BusMuxIn,
+	input wire[3:0] IR, 
+	output reg branch
+	);
+
+	always @(*) begin
+    // Default condition if none of the cases match
+    branch_decision = 1'b0;
+
+    case (IR)
+        4'b00: branch = (BusMuxIn == 32'b0);
+        4'b01: branch = (BusMuxIn != 32'b0);
+        4'b10: branch = (BusMuxIn[31] == 0) && (BusMuxIn != 32'b0);
+        4'b11: branch= (BusMuxIn[31] == 1);
+        default: branch= 1'b0; // Optional default case
+    endcase
+end

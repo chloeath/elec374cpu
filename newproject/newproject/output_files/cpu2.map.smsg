@@ -1,1 +1,2 @@
 Warning (10268): Verilog HDL information at mdrReg.v(10): always construct contains both blocking and non-blocking assignments File: C:/Users/chloe/374project/newproject/newproject/mdrReg.v Line: 10
+Warning (10268): Verilog HDL information at tbld.v(36): always construct contains both blocking and non-blocking assignments File: C:/Users/chloe/374project/newproject/newproject/tbld.v Line: 36
