@@ -55,6 +55,8 @@ RAM RAM(.address(address),
 
 alu alu(ops, RYdataout, BusMuxOut, Zregin);
 
+sel_enc_log sel_enc_log(BusMuxInIR, gra,grc,rin, rout, BAout, rins, routs, CSignExtended);
+
 
 Bus bus(BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO, 

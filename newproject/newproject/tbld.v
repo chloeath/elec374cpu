@@ -10,6 +10,7 @@ reg RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11
 
 reg [31:0] Mdatain;
 
+
 reg [4:0] ops;
 
 reg [3:0] present_state;
@@ -37,7 +38,9 @@ always @(present_state) begin
 	case(present_state)
 		init: begin
 			clear <= 1; Read <= 1;
-			Mdatain <= 8'h00; ops <= 5'b00101;
+			PCout<=0; 
+ //ops <= 5'b00000;
+			MDRout<=1; IRin <=1;
 			RZLOout <= 0; MDRout <= 0; R1out <= 0; MDRin <= 0; R1in <= 0; R2in <= 0; R2out <= 0; RZin <= 0; RYin <= 0; RYout <= 0;
 			RZHIout <= 0; HIin <= 0;
 			#10 clear <= 0;
@@ -47,7 +50,7 @@ always @(present_state) begin
 			#15 PCout <= 0; MARin <= 0; IncPC <= 0; RZin <= 0;
 		end
 		T1: begin
-			RZLOout <=1;PCin <=1;Read <=1; Mdatain<=4'hDEAD;MDRin<=1;
+			RZLOout <=1; PCin <=1; Read <=1; Mdatain<=4'hDEAD;  MDRin<=1;
 			#15 RZLOout <=0;PCin <=0;Read <=0; Mdatain<=4'h0000;MDRin<=0; 
 		end		
 		T2: begin

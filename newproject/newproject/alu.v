@@ -35,19 +35,30 @@ DIV DIV(A, B, divresult);
 
 always @(*) begin
 	case(ops)
-		5'b00000: Zregin = addresult;
-		5'b00001: Zregin = andresult; 
-		5'b00010: Zregin = orresult;
-		5'b00011: Zregin = notresult;
-		5'b00100: Zregin = negresult;
-		5'b00101: Zregin = mulresult;
-		5'b00110: Zregin = rorresult;
-		5'b00111: Zregin = rolresult;
-		5'b01000: Zregin = shlresult;
-		5'b01001: Zregin = shrresult;
-		5'b01010: Zregin = shraresult;
-		5'b01011: Zregin = divresult;
-		5'b01100: Zregin = subresult;
+		5'b00011: Zregin = addresult;
+		5'b01010: Zregin = andresult; 
+		5'b01011: Zregin = orresult;
+		5'b10010: Zregin = notresult;
+		5'b10001: Zregin = negresult;
+		5'b01111: Zregin = mulresult;
+		5'b01000: Zregin = rorresult;
+		5'b01001: Zregin = rolresult;
+		5'b00111: Zregin = shlresult;
+		5'b00101: Zregin = shrresult;
+		5'b00110: Zregin = shraresult;
+		5'b10000: Zregin = divresult;
+		5'b00100: Zregin = subresult;
+		5'b00000: Zregin = addresult; //load
+		5'b00001: Zregin = addresult; // load imm
+		5'b00010: Zregin = addresult; //store
+		//5'b10011: //branch
+		//5'b10100: //jr
+		//5'b10101: //jal
+		//5'b11000: //mfhi
+		//5'b11001: //mflo
+		//5'b10110: //input
+		//5'b10111: //output
+
 
 endcase
 end
