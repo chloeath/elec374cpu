@@ -8,12 +8,12 @@ module DataPath(
 	input RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in,
 	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, PORTin, Read, Write, gra, grb, grc, rin, rout, BAout,
 	
-	input [15:0] rins, routs;
+	input [15:0] rins, routs
 	);
 
 wire [31:0] BusMuxOut, BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, RYdataout, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO,
-	BusMuxInPC, BusMuxInMDR, BusMuxInPort, Address, outputUnit, inputUnit;
+	BusMuxInPC, BusMuxInMDR, BusMuxInPort, BusMuxInIR, Address, outputUnit, IncPC, inputUnit;
 
 wire [63:0] Zregin;
 reg [31:0] CSignExtended;
@@ -47,24 +47,26 @@ register LO(clear, clock, LOin, BusMuxOut, BusMuxInLO);
 register InPort(clear, clock, PORTin, BusMuxOut, outputUnit);
 register OutPort(clear, clock, InPortEnableTemporary, inputUnit, BusMuxInPort);
 
-
+PC_reg PC_reg (clear, clock, IncPC, PCin, BusMuxOut, BusMuxInPC);
 MDMux MDMUX(BusMuxIn, Mdatain, Read); 	
 mdrReg MDR(clear, clock, MDRin, Read, MDMuxOut, BusMuxInMDR);
 MAR MAR (BusMuxIn, MarIN, clock, clear, address);
 RAM RAM(.address(Zregin),
-        .clock(clock),
-        .data(BusMuxInMDR),
-        .wren(Write),
-        .q(q)
+        .clk(clock),
+        .Mdatain(BusMuxInMDR),
+        .write(Write),
+		  .read(Read),
+		  .BusMuxOut(BusMuxOut)
+		  
     );
 
 alu alu(BusMuxInIR[31:27], RYdataout, BusMuxOut, Zregin);
 
-sel_enc_log sel_enc_log (BuxMuxInIR, gra, grb, grc, rin, rout, BAout, rins, routs, CSignExtended);
+sel_enc_log sel_enc_log (BuxMuxInIR, gra, grb, grc, rin, rout, BAout, rins, routs, cSignExtended);
 
 Bus bus(BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO, 
-	BusMuxInPC, BusMuxInMDR, BusMuxInPort, RAout, routs[0], routs[1], routs[2], routs[3], routs[4], routs[5], routs[6], routs[7], routs[8], routs[9], routs[10],
+	BusMuxInPC, BusMuxInMDR, BusMuxInPort, BusMuxInIR, RAout, routs[0], routs[1], routs[2], routs[3], routs[4], routs[5], routs[6], routs[7], routs[8], routs[9], routs[10],
 	routs[11], routs[12], routs[13], routs[14], routs[15], RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, PORTout, BusMuxOut);
 
 endmodule

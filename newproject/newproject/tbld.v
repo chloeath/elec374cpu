@@ -15,7 +15,6 @@ reg [4:0] ops;
 
 reg [3:0] present_state;
 
-
 DataPath DP(
 	clock, clear,
 	Mdatain, ops,
@@ -27,10 +26,11 @@ DataPath DP(
 	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, PORTin, Read
 );
 
-
 parameter init = 4'd1, T0 = 4'd2, T1 = 4'd3, T2 = 4'd4, T3 = 4'd5, T4 = 4'd6, T5 = 4'd7, T6 = 4'd8, T7 = 4'd9;
 			 
-initial begin clock = 0; present_state = 4'd0; end
+initial begin 
+clock = 0; present_state = 4'd0; 
+end
 always #10 clock = ~clock;
 always @ (negedge clock) present_state = present_state + 1;
 	
@@ -39,7 +39,6 @@ always @(present_state) begin
 		init: begin
 			clear <= 1; Read <= 1;
 			PCout<=0; 
- //ops <= 5'b00000;
 			MDRout<=1; IRin <=1;
 			RZLOout <= 0; MDRout <= 0; R1out <= 0; MDRin <= 0; R1in <= 0; R2in <= 0; R2out <= 0; RZin <= 0; RYin <= 0; RYout <= 0;
 			RZHIout <= 0; HIin <= 0;
@@ -50,8 +49,8 @@ always @(present_state) begin
 			#15 PCout <= 0; MARin <= 0; IncPC <= 0; RZin <= 0;
 		end
 		T1: begin
-			RZLOout <=1; PCin <=1; Read <=1; Mdatain<=4'hDEAD;  MDRin<=1;
-			#15 RZLOout <=0;PCin <=0;Read <=0; Mdatain<=4'h0000;MDRin<=0; 
+			RZLOout <=1; PCin <=1; Read <=1; MDRin<=1;
+			#15 RZLOout <=0;PCin <=0;Read <=0; MDRin<=0; 
 		end		
 		T2: begin
 			MDRout <= 1; IRin <=1;
@@ -62,7 +61,7 @@ always @(present_state) begin
 			#15 MDRout <= 0; R2in <= 0;
 		end	
 		T4: begin
-			Cout <=1;  RZin<=1; //ADD<=1;
+			Cout <=1;  RZin<=1; opcode = '00011'
 			#15 Cout <=0;  RZin<=0;
 		end
 		T5: begin
@@ -70,8 +69,8 @@ always @(present_state) begin
 			#15 RZLOout <= 0; MARin <= 0;
 		end
 		T6: begin
-			Read <= 1; Mdatain[31:0] = 4'hBEEF; MDRin<= 1;
-			#15 Read <= 0; Mdatain[31:0] = 4'h0000; MDRin<= 0;
+			Read <= 1; MDRin<= 1;
+			#15 Read <= 0; MDRin<= 0;
 		end
 		T7: begin
 			MDRout <= 1; Gra <=1; MDRin<=1;

@@ -48,9 +48,7 @@ always @(*) begin
 		5'b00110: Zregin = shraresult;
 		5'b10000: Zregin = divresult;
 		5'b00100: Zregin = subresult;
-		5'b00000: Zregin = addresult; //load
-		5'b00001: Zregin = addresult; // load imm
-		5'b00010: Zregin = addresult; //store
+	 //store
 		//5'b10011: //branch
 		//5'b10100: //jr
 		//5'b10101: //jal
