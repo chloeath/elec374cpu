@@ -3,20 +3,21 @@ module DataPath(
 	input wire [31:0] Mdatain,
 	
 	input RAout, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, R9out, R10out, R11out, R12out, R13out, R14out, R15out, 
-	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, PORTout,
+	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, MARout, PORTout,
 	
 	input RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in,
-	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, PORTin, Read, Write, gra, grb, grc, rin, rout, BAout,
+	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, gra, grb, grc, rin, rout, BAout,
 	
 	input [15:0] rins, routs
+	
 	);
 
 wire [31:0] BusMuxOut, BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, RYdataout, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO,
-	BusMuxInPC, BusMuxInMDR, BusMuxInPort, BusMuxInIR, Address, outputUnit, IncPC, inputUnit;
+	BusMuxInPC, BusMuxInMDR, BusMuxInPort, BusMuxInIR, address, outputUnit, IncPC, inputUnit, MDMuxOut;
 
 wire [63:0] Zregin;
-reg [31:0] CSignExtended;
+wire [31:0] cSignExtended;
 wire InPortEnableTemporary;
 
 //register RA(clear, clock, RAin, RegisterAImmediate, BusMuxInRA);
@@ -48,21 +49,15 @@ register InPort(clear, clock, PORTin, BusMuxOut, outputUnit);
 register OutPort(clear, clock, InPortEnableTemporary, inputUnit, BusMuxInPort);
 
 PC_reg PC_reg (clear, clock, IncPC, PCin, BusMuxOut, BusMuxInPC);
-MDMux MDMUX(BusMuxIn, Mdatain, Read); 	
+MDMux MDMUX(BusMuxOut, BusMuxInMDR, Read, MDMuxOut); 	
 mdrReg MDR(clear, clock, MDRin, Read, MDMuxOut, BusMuxInMDR);
-MAR MAR (BusMuxIn, MarIN, clock, clear, address);
-RAM RAM(.address(Zregin),
-        .clk(clock),
-        .Mdatain(BusMuxInMDR),
-        .write(Write),
-		  .read(Read),
-		  .BusMuxOut(BusMuxOut)
-		  
-    );
+MAR MAR (BusMuxOut, MARin, clock, clear, address);
+
+RAM RAM(address, Read, Write, clock, BusMuxOut, BusMuxInMDR);
 
 alu alu(BusMuxInIR[31:27], RYdataout, BusMuxOut, Zregin);
 
-sel_enc_log sel_enc_log (BuxMuxInIR, gra, grb, grc, rin, rout, BAout, rins, routs, cSignExtended);
+sel_enc_log sel_enc_log (BusMuxInIR, gra, grb, grc, rin, rout, BAout, rins, routs, cSignExtended);
 
 Bus bus(BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO, 

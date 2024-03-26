@@ -21,7 +21,7 @@ end
 
 assign rins= {16{rin}} & decodeOut;
 
-assign s5= BAout | rout;
+assign s5 = BAout | rout;
 
 assign routs= {16{s5}} & decodeOut;
 
