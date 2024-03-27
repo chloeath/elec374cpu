@@ -1,5 +1,5 @@
 Analysis & Elaboration report for cpu2
-Tue Mar 26 15:24:10 2024
+Wed Mar 27 17:09:47 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,8 +14,12 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Port Connectivity Checks: "RAM:RAM"
   7. Port Connectivity Checks: "PC_reg:PC_reg"
   8. Port Connectivity Checks: "register:InPort"
-  9. Analysis & Elaboration Messages
- 10. Analysis & Elaboration Suppressed Messages
+  9. Port Connectivity Checks: "register:R7"
+ 10. Port Connectivity Checks: "register:R6"
+ 11. Port Connectivity Checks: "register:R5"
+ 12. Port Connectivity Checks: "register:R4"
+ 13. Analysis & Elaboration Messages
+ 14. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -41,7 +45,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Mar 26 15:24:10 2024       ;
+; Analysis & Elaboration Status ; Successful - Wed Mar 27 17:09:47 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; cpu2                                        ;
 ; Top-level Entity Name         ; DataPath                                    ;
@@ -164,6 +168,7 @@ refer to the applicable agreement for further details.
 +---------------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port          ; Type   ; Severity ; Details                                                                             ;
 +---------------+--------+----------+-------------------------------------------------------------------------------------+
+; routs         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; cSignExtended ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +---------------+--------+----------+-------------------------------------------------------------------------------------+
 
@@ -197,13 +202,49 @@ refer to the applicable agreement for further details.
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register:R7"                                                                            ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; BusMuxIn ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register:R6"                                                                            ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; BusMuxIn ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register:R5"                                                                            ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; BusMuxIn ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register:R4"                                                                            ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; BusMuxIn ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Mar 26 15:23:54 2024
+    Info: Processing started: Wed Mar 27 17:09:33 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu2 -c cpu2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -277,17 +318,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pc_reg.v
     Info (12023): Found entity 1: PC_reg File: C:/Users/chloe/374project/newproject/newproject/PC_reg.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at tbld.v(26): created implicit net for "rin" File: C:/Users/chloe/374project/newproject/newproject/tbld.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at tbld.v(26): created implicit net for "rout" File: C:/Users/chloe/374project/newproject/newproject/tbld.v Line: 26
+Warning (10236): Verilog HDL Implicit Net warning at tbld.v(93): created implicit net for "rin" File: C:/Users/chloe/374project/newproject/newproject/tbld.v Line: 93
+Warning (10236): Verilog HDL Implicit Net warning at tbld.v(94): created implicit net for "rout" File: C:/Users/chloe/374project/newproject/newproject/tbld.v Line: 94
 Info (12127): Elaborating entity "DataPath" for the top level hierarchy
 Info (12128): Elaborating entity "register" for hierarchy "register:R0" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 25
-Info (12128): Elaborating entity "PC_reg" for hierarchy "PC_reg:PC_reg" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 51
-Info (12128): Elaborating entity "MDMux" for hierarchy "MDMux:MDMUX" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 52
-Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 53
-Info (12128): Elaborating entity "MAR" for hierarchy "MAR:MAR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 54
-Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 56
+Info (12128): Elaborating entity "PC_reg" for hierarchy "PC_reg:PC_reg" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 50
+Info (12128): Elaborating entity "MDMux" for hierarchy "MDMux:MDMUX" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 51
+Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 52
+Info (12128): Elaborating entity "MAR" for hierarchy "MAR:MAR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 53
+Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 55
 Warning (10230): Verilog HDL assignment warning at RAM.v(16): truncated value with size 33 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 16
-Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 58
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 57
 Warning (10270): Verilog HDL Case Statement warning at alu.v(37): incomplete case statement has no default case item File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
 Warning (10240): Verilog HDL Always Construct warning at alu.v(37): inferring latch(es) for variable "Zregin", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
 Info (10041): Inferred latch for "Zregin[0]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
@@ -370,49 +411,49 @@ Info (12128): Elaborating entity "SHRA" for hierarchy "alu:alu|SHRA:SHRA" File: 
 Warning (10764): Verilog HDL warning at SHRA.v(10): converting signed shift amount to unsigned File: C:/Users/chloe/374project/newproject/newproject/SHRA.v Line: 10
 Info (12128): Elaborating entity "SUB" for hierarchy "alu:alu|SUB:SUB" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 27
 Info (12128): Elaborating entity "DIV" for hierarchy "alu:alu|DIV:DIV" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 28
-Info (12128): Elaborating entity "sel_enc_log" for hierarchy "sel_enc_log:sel_enc_log" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 60
+Info (12128): Elaborating entity "sel_enc_log" for hierarchy "sel_enc_log:sel_enc_log" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 59
 Warning (10230): Verilog HDL assignment warning at sel_enc_log.v(28): truncated value with size 33 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v Line: 28
-Info (12128): Elaborating entity "Bus" for hierarchy "Bus:bus" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 65
+Info (12128): Elaborating entity "Bus" for hierarchy "Bus:Bus" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 121
 Warning (10240): Verilog HDL Always Construct warning at Bus.v(15): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 15
-Info (10041): Inferred latch for "q[0]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[1]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[2]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[3]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[4]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[5]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[6]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[7]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[8]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[9]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[10]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[11]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[12]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[13]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[14]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[15]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[16]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[17]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[18]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[19]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[20]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[21]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[22]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[23]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[24]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[25]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[26]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[27]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[28]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[29]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[30]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
-Info (10041): Inferred latch for "q[31]" at Bus.v(39) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 39
+Info (10041): Inferred latch for "q[0]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[1]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[2]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[3]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[4]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[5]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[6]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[7]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[8]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[9]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[10]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[11]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[12]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[13]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[14]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[15]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[16]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[17]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[18]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[19]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[20]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[21]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[22]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[23]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[24]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[25]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[26]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[27]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[28]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[29]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[30]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[31]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/chloe/374project/newproject/newproject/output_files/cpu2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 16 warnings
-    Info: Peak virtual memory: 4788 megabytes
-    Info: Processing ended: Tue Mar 26 15:24:10 2024
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Peak virtual memory: 4785 megabytes
+    Info: Processing ended: Wed Mar 27 17:09:47 2024
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +--------------------------------------------+

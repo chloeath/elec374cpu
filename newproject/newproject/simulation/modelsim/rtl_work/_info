@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/chloe/374project/newproject/newproject/simulation/modelsim
 vADD
-Z1 !s110 1711481108
+Z1 !s110 1711573802
 !i10b 1
 !s100 jjS_=4;VWJ?7Un^aeaj:S0
 IYO`EidNlmCoI`9_VF@G=W3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1711481108.000000
+Z4 !s108 1711573802.000000
 !s107 C:/Users/chloe/374project/newproject/newproject/ADD.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/ADD.v|
 !i113 1
@@ -54,7 +54,7 @@ R5
 R6
 R7
 vAND_mod
-Z8 !s110 1711481109
+Z8 !s110 1711573803
 !i10b 1
 !s100 =i1;4KAfWf4i73P;if>_i2
 I8_19cjjKFldJcVGkbjz1m1
@@ -68,7 +68,7 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1711481109.000000
+Z9 !s108 1711573803.000000
 !s107 C:/Users/chloe/374project/newproject/newproject/AND_mod.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/AND_mod.v|
 !i113 1
@@ -79,11 +79,11 @@ n@a@n@d_mod
 vBus
 R1
 !i10b 1
-!s100 8AW8_D83XL`_h2k7HTRB`2
-IT_HiSh@e4SJJUZh_beJCI2
+!s100 VAaUYdnH7OBTmUzZFcP;S0
+I@Y@YQDa<E_0nKmjiffO820
 R2
 R0
-w1711393027
+w1711487043
 8C:/Users/chloe/374project/newproject/newproject/Bus.v
 FC:/Users/chloe/374project/newproject/newproject/Bus.v
 L0 1
@@ -102,11 +102,11 @@ n@bus
 vDataPath
 R1
 !i10b 1
-!s100 ddag0DIV@lJ4dniCNnL<Q2
-I0gNmdKz>i]QUCN8ML2Kf^3
+!s100 U14;l2S0=TV0l73dQbFo[2
+Ib[PNQhM7b;UOjG?GV4O_^2
 R2
 R0
-w1711481034
+w1711571439
 8C:/Users/chloe/374project/newproject/newproject/DataPath.v
 FC:/Users/chloe/374project/newproject/newproject/DataPath.v
 L0 1
@@ -146,13 +146,13 @@ R6
 R7
 n@d@i@v
 vMAR
-Z10 !s110 1711481110
+Z10 !s110 1711573804
 !i10b 1
-!s100 hl[BQB]LF7KPE[Lz?OFKI2
-I=dSZEm?fBZ3SUAQ^UJ6oE1
+!s100 ?zUNPNSlG;Aa3=1McScM52
+IXCMAEW8l=EZGN1aW`D;=E0
 R2
 R0
-w1710778109
+w1711565173
 8C:/Users/chloe/374project/newproject/newproject/MAR.v
 FC:/Users/chloe/374project/newproject/newproject/MAR.v
 L0 1
@@ -160,7 +160,7 @@ R3
 r1
 !s85 0
 31
-Z11 !s108 1711481110.000000
+R9
 !s107 C:/Users/chloe/374project/newproject/newproject/MAR.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/MAR.v|
 !i113 1
@@ -169,13 +169,13 @@ R6
 R7
 n@m@a@r
 vMDMux
-R10
+R8
 !i10b 1
 !s100 Ae8;fnCIaTSm`^jj_P9i71
 IMOGQ4WMUN6j8JfG4;K0<k1
 R2
 R0
-w1710779202
+w1711571914
 8C:/Users/chloe/374project/newproject/newproject/MDMux.v
 FC:/Users/chloe/374project/newproject/newproject/MDMux.v
 L0 1
@@ -244,7 +244,7 @@ R1
 Ihn?_:=BGcG^4TV4@LoXi41
 R2
 R0
-Z12 w1709820625
+Z11 w1709820625
 8C:/Users/chloe/374project/newproject/newproject/NEG.v
 FC:/Users/chloe/374project/newproject/newproject/NEG.v
 L0 1
@@ -267,7 +267,7 @@ R8
 IQS30Xl0i[gCFALfE9MU`V3
 R2
 R0
-R12
+R11
 8C:/Users/chloe/374project/newproject/newproject/NOT_mod.v
 FC:/Users/chloe/374project/newproject/newproject/NOT_mod.v
 L0 2
@@ -290,7 +290,7 @@ R8
 IBS]]>=S>@SA9==L]e9g933
 R2
 R0
-R12
+R11
 8C:/Users/chloe/374project/newproject/newproject/OR_mod.v
 FC:/Users/chloe/374project/newproject/newproject/OR_mod.v
 L0 2
@@ -309,11 +309,11 @@ n@o@r_mod
 vPC_reg
 R10
 !i10b 1
-!s100 f[`Sl833GDaKIkWgMMkZk1
-I7@k[iHAaYZOH@XAIH[g0P3
+!s100 dlNRALHA[i[6KII=Ba:TJ2
+I_C?ZUeK<RJW05CaR<o;;]1
 R2
 R0
-w1711393072
+w1711487045
 8C:/Users/chloe/374project/newproject/newproject/PC_reg.v
 FC:/Users/chloe/374project/newproject/newproject/PC_reg.v
 L0 1
@@ -321,7 +321,7 @@ R3
 r1
 !s85 0
 31
-R11
+Z12 !s108 1711573804.000000
 !s107 C:/Users/chloe/374project/newproject/newproject/PC_reg.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/PC_reg.v|
 !i113 1
@@ -344,7 +344,7 @@ R3
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/chloe/374project/newproject/newproject/RAM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/RAM.v|
 !i113 1
@@ -359,7 +359,7 @@ R1
 I_0:QT>2?MVhk@PkfmYeeE1
 R2
 R0
-R12
+R11
 8C:/Users/chloe/374project/newproject/newproject/register.v
 FC:/Users/chloe/374project/newproject/newproject/register.v
 L0 1
@@ -435,7 +435,7 @@ R3
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v|
 !i113 1
@@ -457,7 +457,7 @@ R3
 r1
 !s85 0
 31
-R9
+R4
 !s107 C:/Users/chloe/374project/newproject/newproject/SHL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/SHL.v|
 !i113 1
@@ -537,11 +537,11 @@ n@s@u@b
 vtbld
 R10
 !i10b 1
-!s100 e4TFP5Pe:zB>Gj16O^hzH3
-Im?h;>UR=3NSfSITPL>9zE2
+!s100 ^T]kXSzIH;R]861V8Iacg0
+IDiXX^9M>j<I5jX>AefU:D2
 R2
 R0
-w1711480916
+w1711573753
 8C:/Users/chloe/374project/newproject/newproject/tbld.v
 FC:/Users/chloe/374project/newproject/newproject/tbld.v
 L0 2
@@ -549,7 +549,7 @@ R3
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/chloe/374project/newproject/newproject/tbld.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chloe/374project/newproject/newproject|C:/Users/chloe/374project/newproject/newproject/tbld.v|
 !i113 1

@@ -12,249 +12,249 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/Bus.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/Bus.v 
 # -- Compiling module Bus
 # 
 # Top level modules:
 # 	Bus
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/DataPath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/DataPath.v 
 # -- Compiling module DataPath
 # 
 # Top level modules:
 # 	DataPath
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/register.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/register.v 
 # -- Compiling module register
 # 
 # Top level modules:
 # 	register
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/mdrReg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/mdrReg.v 
 # -- Compiling module mdrReg
 # 
 # Top level modules:
 # 	mdrReg
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ADD.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ADD.v 
 # -- Compiling module ADD
 # 
 # Top level modules:
 # 	ADD
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/NEG.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:08 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/NEG.v 
 # -- Compiling module NEG
 # 
 # Top level modules:
 # 	NEG
-# End time: 15:25:08 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:02 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:02 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHL.v 
 # -- Compiling module SHL
 # 
 # Top level modules:
 # 	SHL
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHR.v 
 # -- Compiling module SHR
 # 
 # Top level modules:
 # 	SHR
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHRA.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHRA.v 
 # -- Compiling module SHRA
 # 
 # Top level modules:
 # 	SHRA
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/AND_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/AND_mod.v 
 # -- Compiling module AND_mod
 # 
 # Top level modules:
 # 	AND_mod
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/OR_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/OR_mod.v 
 # -- Compiling module OR_mod
 # 
 # Top level modules:
 # 	OR_mod
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ROL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ROL.v 
 # -- Compiling module ROL
 # 
 # Top level modules:
 # 	ROL
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ROR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ROR.v 
 # -- Compiling module ROR
 # 
 # Top level modules:
 # 	ROR
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MUL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MUL.v 
 # -- Compiling module MUL
 # 
 # Top level modules:
 # 	MUL
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/NOT_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/NOT_mod.v 
 # -- Compiling module NOT_mod
 # 
 # Top level modules:
 # 	NOT_mod
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SUB.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SUB.v 
 # -- Compiling module SUB
 # 
 # Top level modules:
 # 	SUB
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/DIV.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/DIV.v 
 # -- Compiling module DIV
 # 
 # Top level modules:
 # 	DIV
-# End time: 15:25:09 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MDMux.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:09 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MDMux.v 
 # -- Compiling module MDMux
 # 
 # Top level modules:
 # 	MDMux
-# End time: 15:25:10 on Mar 26,2024, Elapsed time: 0:00:01
+# End time: 17:10:03 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MAR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:10 on Mar 26,2024
+# Start time: 17:10:03 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MAR.v 
 # -- Compiling module MAR
 # 
 # Top level modules:
 # 	MAR
-# End time: 15:25:10 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:04 on Mar 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:10 on Mar 26,2024
+# Start time: 17:10:04 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v 
 # -- Compiling module sel_enc_log
 # 
 # Top level modules:
 # 	sel_enc_log
-# End time: 15:25:10 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:04 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/RAM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:10 on Mar 26,2024
+# Start time: 17:10:04 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/RAM.v 
 # -- Compiling module RAM
 # 
 # Top level modules:
 # 	RAM
-# End time: 15:25:10 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:04 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/PC_reg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:10 on Mar 26,2024
+# Start time: 17:10:04 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/PC_reg.v 
 # -- Compiling module PC_reg
 # 
 # Top level modules:
 # 	PC_reg
-# End time: 15:25:10 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:04 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/tbld.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:25:10 on Mar 26,2024
+# Start time: 17:10:04 on Mar 27,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/tbld.v 
 # -- Compiling module tbld
 # 
 # Top level modules:
 # 	tbld
-# End time: 15:25:10 on Mar 26,2024, Elapsed time: 0:00:00
+# End time: 17:10:04 on Mar 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 15:25:11 on Mar 26,2024
+# Start time: 17:10:04 on Mar 27,2024
 # Loading work.tbld
 # Loading work.DataPath
 # Loading work.register
@@ -279,19 +279,17 @@
 # Loading work.DIV
 # Loading work.sel_enc_log
 # Loading work.Bus
-# ** Warning: (vsim-3017) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [TFMPC] - Too few port connections. Expected 66, found 64.
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(11).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [PCDPC] - Port size (1) does not match connection size (5) for port 'RAout'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(5).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(11).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3722) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [TFMPC] - Missing connection for port 'rins'.
-# ** Warning: (vsim-3722) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [TFMPC] - Missing connection for port 'routs'.
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'IncPC'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/PC_reg.v(2).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'IncPC'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/PC_reg.v(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/PC_reg File: C:/Users/chloe/374project/newproject/newproject/PC_reg.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(56): [PCDPC] - Port size (33) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(2).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(56): [PCDPC] - Port size (33) does not match connection size (32) for port 'Mdatain'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(4).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'Mdatain'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(4).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(56): [PCDPC] - Port size (33) does not match connection size (32) for port 'Q'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(5).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'Q'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(5).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
 # 
 # add wave *
@@ -300,25 +298,36 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 500 sec
-add wave -position end  sim:/tbld/DP/R1/q
-add wave -position end  sim:/tbld/DP/R2/q
-add wave -position end sim:/tbld/DP/MDR/*
-add wave -position end sim:/tbld/DP/RAM/*
+add wave -position end  sim:/tbld/DP/Bus/MDRout
+add wave -position end sim:/tbld/DP/IR/*
 restart
-# ** Warning: (vsim-3017) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [TFMPC] - Too few port connections. Expected 66, found 64.
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(11).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [PCDPC] - Port size (1) does not match connection size (5) for port 'RAout'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(5).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(11).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3722) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [TFMPC] - Missing connection for port 'rins'.
-# ** Warning: (vsim-3722) C:/Users/chloe/374project/newproject/newproject/tbld.v(18): [TFMPC] - Missing connection for port 'routs'.
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'IncPC'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/PC_reg.v(2).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'IncPC'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/PC_reg.v(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/PC_reg File: C:/Users/chloe/374project/newproject/newproject/PC_reg.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(56): [PCDPC] - Port size (33) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(2).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(56): [PCDPC] - Port size (33) does not match connection size (32) for port 'Mdatain'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(4).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'Mdatain'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(4).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(56): [PCDPC] - Port size (33) does not match connection size (32) for port 'Q'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(5).
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'Q'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(5).
 #    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
 run 500ns
-# End time: 15:28:01 on Mar 26,2024, Elapsed time: 0:02:50
-# Errors: 0, Warnings: 16
+add wave -position end sim:/tbld/DP/R2/*
+restart
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'IncPC'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/PC_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/PC_reg File: C:/Users/chloe/374project/newproject/newproject/PC_reg.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'Mdatain'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(55): [PCDPC] - Port size (33) does not match connection size (32) for port 'Q'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/RAM.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v
+run 500ns
+# End time: 17:12:57 on Mar 27,2024, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 18
