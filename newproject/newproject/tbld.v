@@ -6,7 +6,7 @@ reg RAout, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, R9out,
 	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, MARout, PORTout;
 
 reg RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in, 
-	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, IncPC, grb, BAout, Yin, Cout, gra, grc, rins, routs;
+	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, IncPC, grb, BAout, Yin, Cout, gra, grc, rins, routs, rin, rout;
 
 reg [31:0] Mdatain;
 
@@ -93,6 +93,7 @@ DataPath DP(
 	 .rin(rin),
 	 .rout(rout),
 	 .BAout(BAout),
+	 .IncPC(IncPC),
 	 .rins(rins),
 	 .routs(routs)
 	);
@@ -114,6 +115,8 @@ always @(present_state) begin
 			Read<=0;
 			RZLOout <= 0; MDRout <= 0; R1out <= 0; MDRin <= 0; R1in <= 0; R2in <= 0; R2out <= 0; RZin <= 0; RYin <= 0; RYout <= 0;
 			RZHIout <= 0; HIin <= 0;
+			gra<=0; grb<=0; grc<=0;
+			rin<=0; rout<=0; BAout<=0;
 			#10 clear <= 0;
 		end
 		T0: begin		
@@ -145,7 +148,7 @@ always @(present_state) begin
 			#15 Read <= 0; MDRin<= 0;
 		end
 		T7: begin
-			MDRout <= 1; gra <=1; MDRin<=1;
+			MDRout <= 1; gra <=1; MDRin<=1; rin<=1;
 			#15 MDRout <= 0; gra <=0; MDRin<=0;
 		end
 	endcase

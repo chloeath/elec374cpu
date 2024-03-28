@@ -6,7 +6,7 @@ input clear, clk, IncPC, enable,
 	
 	always @ (posedge clk)
 	begin
-		if(IncPC == 1 && enable ==1)
+		if(IncPC == 1)
 			pcOut <= pcOut + 1;
 		else if (enable == 1)
 			pcOut <= pcData;

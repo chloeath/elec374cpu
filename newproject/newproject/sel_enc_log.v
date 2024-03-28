@@ -12,7 +12,7 @@ wire s5;
 assign s1 = ir[26:23] & {4{gra}};
 assign s2 = ir[22:19] & {4{grb}};
 assign s3 = ir[18:15] & {4{grc}};
-assign s4 = s1 & s2 & s3;
+assign s4 = s1 | s2 | s3;
 
 always @(*) begin
 	decodeOut = 16'b0;
