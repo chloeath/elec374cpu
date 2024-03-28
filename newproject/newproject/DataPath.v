@@ -3,7 +3,7 @@ module DataPath(
 	input wire [31:0] Mdatain,
 	
 	input RAout, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, R9out, R10out, R11out, R12out, R13out, R14out, R15out, 
-	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, MARout, PORTout,
+	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, MARout, PORTout, Cout,
 	
 	input RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in,
 	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, gra, grb, grc, rin, rout, BAout,
@@ -90,6 +90,7 @@ Bus Bus (
 	 .BusMuxInPort(BusMuxInPort),
 	 .BusMuxInIR(BusMuxInIR),
 	 .address(address),
+	 .cSignExtended(cSignExtended),
 	 .RAout(RAout),
 	 .R0out(R0out),
 	 .R1out(R1out),
@@ -117,6 +118,7 @@ Bus Bus (
 	 .MDRout(MDRout),
 	 .MARout(MARout),
 	 .PORTout(PORTout),
+	 .Cout(Cout),
 	 .BusMuxOut(BusMuxOut)
 );	
 	

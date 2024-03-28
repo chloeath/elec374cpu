@@ -59,6 +59,7 @@ DataPath DP(
 	 .MDRout(MDRout),
 	 .MARout(MARout),
 	 .PORTout(PORTout),
+	 .Cout(Cout),
 	 .RAin(RAin),
 	 .R0in(R0in),
 	 .R1in(R1in),
@@ -129,8 +130,8 @@ always @(present_state) begin
 			#15 MDRout <= 0; IRin <=0;
 		end
 		T3: begin
-			MDRout <= 1; R2in <= 1;
-			#15 MDRout <= 0; R2in <= 0;
+			grb <=1; BAout<=1; Yin <=1;
+			#15 grb<=0; BAout<=0; Yin<=0;
 		end	
 		T4: begin
 			Cout <=1;  RZin<=1; ops <= 00011;

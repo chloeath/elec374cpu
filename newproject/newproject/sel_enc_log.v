@@ -25,6 +25,6 @@ assign s5 = BAout | rout;
 
 assign routs= {16{s5}} & decodeOut;
 
-assign cSignExtended = {{14{ir[18]}}, ir[18:0]};
+assign cSignExtended = {{13{ir[18]}}, ir[18:0]};
 
-endmodule
+endmodule 
