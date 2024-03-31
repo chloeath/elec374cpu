@@ -9,6 +9,7 @@ wire [3:0] s1, s2, s3, s4;
 reg [15:0] decodeOut;
 wire s5;
 
+
 assign s1 = ir[26:23] & {4{gra}};
 assign s2 = ir[22:19] & {4{grb}};
 assign s3 = ir[18:15] & {4{grc}};
@@ -19,7 +20,9 @@ always @(*) begin
 	decodeOut[s4]= 1'b1;
 end
 
-assign rins= {16{rin}} & decodeOut;
+assign rins = {16{rin}} & decodeOut;
+
+//assign rins = 16'b0;
 
 assign s5 = BAout | rout;
 

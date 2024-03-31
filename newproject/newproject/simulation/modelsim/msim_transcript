@@ -10,253 +10,264 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/Bus.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/Bus.v 
 # -- Compiling module Bus
 # 
 # Top level modules:
 # 	Bus
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/DataPath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/DataPath.v 
 # -- Compiling module DataPath
 # 
 # Top level modules:
 # 	DataPath
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/register.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/register.v 
 # -- Compiling module register
 # 
 # Top level modules:
 # 	register
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/mdrReg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/mdrReg.v 
 # -- Compiling module mdrReg
 # 
 # Top level modules:
 # 	mdrReg
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ADD.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ADD.v 
 # -- Compiling module ADD
 # 
 # Top level modules:
 # 	ADD
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/NEG.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/NEG.v 
 # -- Compiling module NEG
 # 
 # Top level modules:
 # 	NEG
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHL.v 
 # -- Compiling module SHL
 # 
 # Top level modules:
 # 	SHL
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v 
+# Start time: 15:43:51 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHR.v 
 # -- Compiling module SHR
 # 
 # Top level modules:
 # 	SHR
-# End time: 20:13:46 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHRA.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:46 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHRA.v 
 # -- Compiling module SHRA
 # 
 # Top level modules:
 # 	SHRA
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:01
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/AND_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/AND_mod.v 
 # -- Compiling module AND_mod
 # 
 # Top level modules:
 # 	AND_mod
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/OR_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/OR_mod.v 
 # -- Compiling module OR_mod
 # 
 # Top level modules:
 # 	OR_mod
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ROL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ROL.v 
 # -- Compiling module ROL
 # 
 # Top level modules:
 # 	ROL
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ROR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ROR.v 
 # -- Compiling module ROR
 # 
 # Top level modules:
 # 	ROR
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MUL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MUL.v 
 # -- Compiling module MUL
 # 
 # Top level modules:
 # 	MUL
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/NOT_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/NOT_mod.v 
 # -- Compiling module NOT_mod
 # 
 # Top level modules:
 # 	NOT_mod
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SUB.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SUB.v 
 # -- Compiling module SUB
 # 
 # Top level modules:
 # 	SUB
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/DIV.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/DIV.v 
 # -- Compiling module DIV
 # 
 # Top level modules:
 # 	DIV
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/register_R0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v 
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/register_R0.v 
+# -- Compiling module register_R0
+# 
+# Top level modules:
+# 	register_R0
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MDMux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:43:52 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MDMux.v 
 # -- Compiling module MDMux
 # 
 # Top level modules:
 # 	MDMux
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MAR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v 
+# Start time: 15:43:53 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MAR.v 
 # -- Compiling module MAR
 # 
 # Top level modules:
 # 	MAR
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v 
+# Start time: 15:43:53 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v 
 # -- Compiling module sel_enc_log
 # 
 # Top level modules:
 # 	sel_enc_log
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/RAM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v 
+# Start time: 15:43:53 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/RAM.v 
 # -- Compiling module RAM
 # 
 # Top level modules:
 # 	RAM
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/PC_reg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v 
+# Start time: 15:43:53 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/PC_reg.v 
 # -- Compiling module PC_reg
 # 
 # Top level modules:
 # 	PC_reg
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/tbld.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:13:47 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v 
+# Start time: 15:43:53 on Mar 30,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/tbld.v 
 # -- Compiling module tbld
 # 
 # Top level modules:
 # 	tbld
-# End time: 20:13:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 20:13:48 on Mar 27,2024
+# Start time: 15:43:53 on Mar 30,2024
 # Loading work.tbld
 # Loading work.DataPath
+# Loading work.register_R0
 # Loading work.register
 # Loading work.PC_reg
 # Loading work.MDMux
@@ -279,1634 +290,28 @@
 # Loading work.DIV
 # Loading work.sel_enc_log
 # Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(33): [PCDPC] - Port size (32) does not match connection size (5) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(57): [PCDPC] - Port size (5) does not match connection size (32) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/alu.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/alu File: C:/Users/chloe/374project/newproject/newproject/alu.v
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlft48g46i".
+#           Attempting to use alternate WLF file "./wlft77aihf".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft48g46i
+#           Using alternate file: ./wlft77aihf
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 500 ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/ir
-add wave -position end  sim:/tbld/DP/sel_enc_log/rins
-add wave -position end  sim:/tbld/DP/sel_enc_log/routs
+add wave -position end sim:/tbld/DP/R2/*
 restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(33): [PCDPC] - Port size (32) does not match connection size (5) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(57): [PCDPC] - Port size (5) does not match connection size (32) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/alu.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/alu File: C:/Users/chloe/374project/newproject/newproject/alu.v
 run 500ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/s1
-add wave -position end  sim:/tbld/DP/sel_enc_log/s2
-add wave -position end  sim:/tbld/DP/sel_enc_log/s3
-add wave -position end  sim:/tbld/DP/sel_enc_log/s4
-add wave -position end  sim:/tbld/DP/sel_enc_log/gra
-add wave -position end  sim:/tbld/DP/sel_enc_log/grb
-add wave -position end  sim:/tbld/DP/sel_enc_log/grc
-restart 500ns
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-do cpu2_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v 
-# -- Compiling module Bus
-# 
-# Top level modules:
-# 	Bus
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v 
-# -- Compiling module DataPath
-# 
-# Top level modules:
-# 	DataPath
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v 
-# -- Compiling module register
-# 
-# Top level modules:
-# 	register
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v 
-# -- Compiling module mdrReg
-# 
-# Top level modules:
-# 	mdrReg
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v 
-# -- Compiling module ADD
-# 
-# Top level modules:
-# 	ADD
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v 
-# -- Compiling module NEG
-# 
-# Top level modules:
-# 	NEG
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v 
-# -- Compiling module SHL
-# 
-# Top level modules:
-# 	SHL
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v 
-# -- Compiling module SHR
-# 
-# Top level modules:
-# 	SHR
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v 
-# -- Compiling module SHRA
-# 
-# Top level modules:
-# 	SHRA
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v 
-# -- Compiling module AND_mod
-# 
-# Top level modules:
-# 	AND_mod
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v 
-# -- Compiling module OR_mod
-# 
-# Top level modules:
-# 	OR_mod
-# End time: 20:18:03 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:03 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v 
-# -- Compiling module ROL
-# 
-# Top level modules:
-# 	ROL
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v 
-# -- Compiling module ROR
-# 
-# Top level modules:
-# 	ROR
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v 
-# -- Compiling module MUL
-# 
-# Top level modules:
-# 	MUL
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v 
-# -- Compiling module NOT_mod
-# 
-# Top level modules:
-# 	NOT_mod
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v 
-# -- Compiling module SUB
-# 
-# Top level modules:
-# 	SUB
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v 
-# -- Compiling module DIV
-# 
-# Top level modules:
-# 	DIV
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v 
-# -- Compiling module MDMux
-# 
-# Top level modules:
-# 	MDMux
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v 
-# -- Compiling module MAR
-# 
-# Top level modules:
-# 	MAR
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v 
-# -- Compiling module sel_enc_log
-# 
-# Top level modules:
-# 	sel_enc_log
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v 
-# -- Compiling module RAM
-# 
-# Top level modules:
-# 	RAM
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:04 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v 
-# -- Compiling module PC_reg
-# 
-# Top level modules:
-# 	PC_reg
-# End time: 20:18:04 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:18:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v 
-# -- Compiling module tbld
-# 
-# Top level modules:
-# 	tbld
-# End time: 20:18:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
-# End time: 20:18:06 on Mar 27,2024, Elapsed time: 0:04:18
-# Errors: 0, Warnings: 10
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 20:18:07 on Mar 27,2024
-# Loading work.tbld
-# Loading work.DataPath
-# Loading work.register
-# Loading work.PC_reg
-# Loading work.MDMux
-# Loading work.mdrReg
-# Loading work.MAR
-# Loading work.RAM
-# Loading work.alu
-# Loading work.ADD
-# Loading work.AND_mod
-# Loading work.OR_mod
-# Loading work.NOT_mod
-# Loading work.NEG
-# Loading work.MUL
-# Loading work.ROR
-# Loading work.ROL
-# Loading work.SHL
-# Loading work.SHR
-# Loading work.SHRA
-# Loading work.SUB
-# Loading work.DIV
-# Loading work.sel_enc_log
-# Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlft77n9aj".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft77n9aj
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/s1
-add wave -position end  sim:/tbld/DP/sel_enc_log/s2
-add wave -position end  sim:/tbld/DP/sel_enc_log/s3
-add wave -position end  sim:/tbld/DP/sel_enc_log/s4
-add wave -position end  sim:/tbld/DP/sel_enc_log/gra
-add wave -position end  sim:/tbld/DP/sel_enc_log/grb
-add wave -position end  sim:/tbld/DP/sel_enc_log/grc
-restart 500ns
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/ir
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/s5
-do cpu2_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v 
-# -- Compiling module Bus
-# 
-# Top level modules:
-# 	Bus
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v 
-# -- Compiling module DataPath
-# 
-# Top level modules:
-# 	DataPath
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v 
-# -- Compiling module register
-# 
-# Top level modules:
-# 	register
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v 
-# -- Compiling module mdrReg
-# 
-# Top level modules:
-# 	mdrReg
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v 
-# -- Compiling module ADD
-# 
-# Top level modules:
-# 	ADD
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v 
-# -- Compiling module NEG
-# 
-# Top level modules:
-# 	NEG
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v 
-# -- Compiling module SHL
-# 
-# Top level modules:
-# 	SHL
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v 
-# -- Compiling module SHR
-# 
-# Top level modules:
-# 	SHR
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v 
-# -- Compiling module SHRA
-# 
-# Top level modules:
-# 	SHRA
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v 
-# -- Compiling module AND_mod
-# 
-# Top level modules:
-# 	AND_mod
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:05 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v 
-# -- Compiling module OR_mod
-# 
-# Top level modules:
-# 	OR_mod
-# End time: 20:23:05 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v 
-# -- Compiling module ROL
-# 
-# Top level modules:
-# 	ROL
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v 
-# -- Compiling module ROR
-# 
-# Top level modules:
-# 	ROR
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v 
-# -- Compiling module MUL
-# 
-# Top level modules:
-# 	MUL
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v 
-# -- Compiling module NOT_mod
-# 
-# Top level modules:
-# 	NOT_mod
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v 
-# -- Compiling module SUB
-# 
-# Top level modules:
-# 	SUB
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v 
-# -- Compiling module DIV
-# 
-# Top level modules:
-# 	DIV
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v 
-# -- Compiling module MDMux
-# 
-# Top level modules:
-# 	MDMux
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v 
-# -- Compiling module MAR
-# 
-# Top level modules:
-# 	MAR
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v 
-# -- Compiling module sel_enc_log
-# 
-# Top level modules:
-# 	sel_enc_log
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v 
-# -- Compiling module RAM
-# 
-# Top level modules:
-# 	RAM
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v 
-# -- Compiling module PC_reg
-# 
-# Top level modules:
-# 	PC_reg
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:23:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v 
-# -- Compiling module tbld
-# 
-# Top level modules:
-# 	tbld
-# End time: 20:23:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
-# End time: 20:23:08 on Mar 27,2024, Elapsed time: 0:05:01
-# Errors: 0, Warnings: 10
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 20:23:08 on Mar 27,2024
-# Loading work.tbld
-# Loading work.DataPath
-# Loading work.register
-# Loading work.PC_reg
-# Loading work.MDMux
-# Loading work.mdrReg
-# Loading work.MAR
-# Loading work.RAM
-# Loading work.alu
-# Loading work.ADD
-# Loading work.AND_mod
-# Loading work.OR_mod
-# Loading work.NOT_mod
-# Loading work.NEG
-# Loading work.MUL
-# Loading work.ROR
-# Loading work.ROL
-# Loading work.SHL
-# Loading work.SHR
-# Loading work.SHRA
-# Loading work.SUB
-# Loading work.DIV
-# Loading work.sel_enc_log
-# Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlft6r1sg9".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft6r1sg9
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/s1
-add wave -position end  sim:/tbld/DP/sel_enc_log/s2
-add wave -position end  sim:/tbld/DP/sel_enc_log/s3
-add wave -position end  sim:/tbld/DP/sel_enc_log/s4
-add wave -position end  sim:/tbld/DP/sel_enc_log/gra
-add wave -position end  sim:/tbld/DP/sel_enc_log/grb
-add wave -position end  sim:/tbld/DP/sel_enc_log/grc
-add wave -position end  sim:/tbld/DP/sel_enc_log/ir
-add wave -position end  sim:/tbld/DP/sel_enc_log/s5
-add wave -position end  sim:/tbld/DP/sel_enc_log/decodeOut
-add wave -position end  sim:/tbld/DP/sel_enc_log/rins
-add wave -position end  sim:/tbld/DP/sel_enc_log/routs
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-do cpu2_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v 
-# -- Compiling module Bus
-# 
-# Top level modules:
-# 	Bus
-# End time: 20:32:56 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v 
-# -- Compiling module DataPath
-# 
-# Top level modules:
-# 	DataPath
-# End time: 20:32:56 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v 
-# -- Compiling module register
-# 
-# Top level modules:
-# 	register
-# End time: 20:32:56 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v 
-# -- Compiling module mdrReg
-# 
-# Top level modules:
-# 	mdrReg
-# End time: 20:32:56 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:32:56 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v 
-# -- Compiling module ADD
-# 
-# Top level modules:
-# 	ADD
-# End time: 20:32:56 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:56 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v 
-# -- Compiling module NEG
-# 
-# Top level modules:
-# 	NEG
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v 
-# -- Compiling module SHL
-# 
-# Top level modules:
-# 	SHL
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v 
-# -- Compiling module SHR
-# 
-# Top level modules:
-# 	SHR
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v 
-# -- Compiling module SHRA
-# 
-# Top level modules:
-# 	SHRA
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v 
-# -- Compiling module AND_mod
-# 
-# Top level modules:
-# 	AND_mod
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v 
-# -- Compiling module OR_mod
-# 
-# Top level modules:
-# 	OR_mod
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v 
-# -- Compiling module ROL
-# 
-# Top level modules:
-# 	ROL
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v 
-# -- Compiling module ROR
-# 
-# Top level modules:
-# 	ROR
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v 
-# -- Compiling module MUL
-# 
-# Top level modules:
-# 	MUL
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v 
-# -- Compiling module NOT_mod
-# 
-# Top level modules:
-# 	NOT_mod
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v 
-# -- Compiling module SUB
-# 
-# Top level modules:
-# 	SUB
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v 
-# -- Compiling module DIV
-# 
-# Top level modules:
-# 	DIV
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v 
-# -- Compiling module MDMux
-# 
-# Top level modules:
-# 	MDMux
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v 
-# -- Compiling module MAR
-# 
-# Top level modules:
-# 	MAR
-# End time: 20:32:57 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:57 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v 
-# -- Compiling module sel_enc_log
-# 
-# Top level modules:
-# 	sel_enc_log
-# End time: 20:32:58 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:58 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v 
-# -- Compiling module RAM
-# 
-# Top level modules:
-# 	RAM
-# End time: 20:32:58 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:58 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v 
-# -- Compiling module PC_reg
-# 
-# Top level modules:
-# 	PC_reg
-# End time: 20:32:58 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:32:58 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v 
-# -- Compiling module tbld
-# 
-# Top level modules:
-# 	tbld
-# End time: 20:32:58 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
-# End time: 20:32:59 on Mar 27,2024, Elapsed time: 0:09:51
+# End time: 20:13:40 on Mar 30,2024, Elapsed time: 4:29:47
 # Errors: 0, Warnings: 6
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 20:32:59 on Mar 27,2024
-# Loading work.tbld
-# Loading work.DataPath
-# Loading work.register
-# Loading work.PC_reg
-# Loading work.MDMux
-# Loading work.mdrReg
-# Loading work.MAR
-# Loading work.RAM
-# Loading work.alu
-# Loading work.ADD
-# Loading work.AND_mod
-# Loading work.OR_mod
-# Loading work.NOT_mod
-# Loading work.NEG
-# Loading work.MUL
-# Loading work.ROR
-# Loading work.ROL
-# Loading work.SHL
-# Loading work.SHR
-# Loading work.SHRA
-# Loading work.SUB
-# Loading work.DIV
-# Loading work.sel_enc_log
-# Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlftc88isj".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftc88isj
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/gra
-add wave -position end  sim:/tbld/DP/sel_enc_log/grb
-add wave -position end  sim:/tbld/DP/sel_enc_log/grc
-add wave -position end  sim:/tbld/DP/sel_enc_log/ir
-add wave -position end  sim:/tbld/DP/sel_enc_log/rins
-add wave -position end  sim:/tbld/DP/sel_enc_log/routs
-add wave -position end  sim:/tbld/DP/sel_enc_log/s1
-add wave -position end  sim:/tbld/DP/sel_enc_log/s2
-add wave -position end  sim:/tbld/DP/sel_enc_log/s3
-add wave -position end  sim:/tbld/DP/sel_enc_log/s4
-add wave -position end  sim:/tbld/DP/sel_enc_log/decodeOut
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-do cpu2_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:51 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v 
-# -- Compiling module Bus
-# 
-# Top level modules:
-# 	Bus
-# End time: 20:40:51 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:51 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v 
-# -- Compiling module DataPath
-# 
-# Top level modules:
-# 	DataPath
-# End time: 20:40:51 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:51 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v 
-# -- Compiling module register
-# 
-# Top level modules:
-# 	register
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v 
-# -- Compiling module mdrReg
-# 
-# Top level modules:
-# 	mdrReg
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v 
-# -- Compiling module ADD
-# 
-# Top level modules:
-# 	ADD
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v 
-# -- Compiling module NEG
-# 
-# Top level modules:
-# 	NEG
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v 
-# -- Compiling module SHL
-# 
-# Top level modules:
-# 	SHL
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v 
-# -- Compiling module SHR
-# 
-# Top level modules:
-# 	SHR
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v 
-# -- Compiling module SHRA
-# 
-# Top level modules:
-# 	SHRA
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v 
-# -- Compiling module AND_mod
-# 
-# Top level modules:
-# 	AND_mod
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v 
-# -- Compiling module OR_mod
-# 
-# Top level modules:
-# 	OR_mod
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v 
-# -- Compiling module ROL
-# 
-# Top level modules:
-# 	ROL
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v 
-# -- Compiling module ROR
-# 
-# Top level modules:
-# 	ROR
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:52 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v 
-# -- Compiling module MUL
-# 
-# Top level modules:
-# 	MUL
-# End time: 20:40:52 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v 
-# -- Compiling module NOT_mod
-# 
-# Top level modules:
-# 	NOT_mod
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v 
-# -- Compiling module SUB
-# 
-# Top level modules:
-# 	SUB
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v 
-# -- Compiling module DIV
-# 
-# Top level modules:
-# 	DIV
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v 
-# -- Compiling module MDMux
-# 
-# Top level modules:
-# 	MDMux
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v 
-# -- Compiling module MAR
-# 
-# Top level modules:
-# 	MAR
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v 
-# -- Compiling module sel_enc_log
-# 
-# Top level modules:
-# 	sel_enc_log
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v 
-# -- Compiling module RAM
-# 
-# Top level modules:
-# 	RAM
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v 
-# -- Compiling module PC_reg
-# 
-# Top level modules:
-# 	PC_reg
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:40:53 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v 
-# -- Compiling module tbld
-# 
-# Top level modules:
-# 	tbld
-# End time: 20:40:53 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
-# End time: 20:40:55 on Mar 27,2024, Elapsed time: 0:07:56
-# Errors: 0, Warnings: 6
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 20:40:55 on Mar 27,2024
-# Loading work.tbld
-# Loading work.DataPath
-# Loading work.register
-# Loading work.PC_reg
-# Loading work.MDMux
-# Loading work.mdrReg
-# Loading work.MAR
-# Loading work.RAM
-# Loading work.alu
-# Loading work.ADD
-# Loading work.AND_mod
-# Loading work.OR_mod
-# Loading work.NOT_mod
-# Loading work.NEG
-# Loading work.MUL
-# Loading work.ROR
-# Loading work.ROL
-# Loading work.SHL
-# Loading work.SHR
-# Loading work.SHRA
-# Loading work.SUB
-# Loading work.DIV
-# Loading work.sel_enc_log
-# Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlfts6bmn8".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfts6bmn8
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/gra
-add wave -position end  sim:/tbld/DP/sel_enc_log/grb
-add wave -position end  sim:/tbld/DP/sel_enc_log/grc
-add wave -position end  sim:/tbld/DP/sel_enc_log/ir
-add wave -position end  sim:/tbld/DP/sel_enc_log/rins
-add wave -position end  sim:/tbld/DP/sel_enc_log/routs
-add wave -position end  sim:/tbld/DP/sel_enc_log/s1
-add wave -position end  sim:/tbld/DP/sel_enc_log/s2
-add wave -position end  sim:/tbld/DP/sel_enc_log/s3
-add wave -position end  sim:/tbld/DP/sel_enc_log/s4
-add wave -position end  sim:/tbld/DP/sel_enc_log/decodeOut
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-do cpu2_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:25 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v 
-# -- Compiling module Bus
-# 
-# Top level modules:
-# 	Bus
-# End time: 20:45:25 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:25 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v 
-# -- Compiling module DataPath
-# 
-# Top level modules:
-# 	DataPath
-# End time: 20:45:25 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:25 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v 
-# -- Compiling module register
-# 
-# Top level modules:
-# 	register
-# End time: 20:45:25 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:25 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v 
-# -- Compiling module mdrReg
-# 
-# Top level modules:
-# 	mdrReg
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v 
-# -- Compiling module ADD
-# 
-# Top level modules:
-# 	ADD
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NEG.v 
-# -- Compiling module NEG
-# 
-# Top level modules:
-# 	NEG
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHL.v 
-# -- Compiling module SHL
-# 
-# Top level modules:
-# 	SHL
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHR.v 
-# -- Compiling module SHR
-# 
-# Top level modules:
-# 	SHR
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v 
-# -- Compiling module SHRA
-# 
-# Top level modules:
-# 	SHRA
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v 
-# -- Compiling module AND_mod
-# 
-# Top level modules:
-# 	AND_mod
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v 
-# -- Compiling module OR_mod
-# 
-# Top level modules:
-# 	OR_mod
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v 
-# -- Compiling module ROL
-# 
-# Top level modules:
-# 	ROL
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v 
-# -- Compiling module ROR
-# 
-# Top level modules:
-# 	ROR
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v 
-# -- Compiling module MUL
-# 
-# Top level modules:
-# 	MUL
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v 
-# -- Compiling module NOT_mod
-# 
-# Top level modules:
-# 	NOT_mod
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v 
-# -- Compiling module SUB
-# 
-# Top level modules:
-# 	SUB
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:26 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v 
-# -- Compiling module DIV
-# 
-# Top level modules:
-# 	DIV
-# End time: 20:45:26 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:27 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v 
-# -- Compiling module MDMux
-# 
-# Top level modules:
-# 	MDMux
-# End time: 20:45:27 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:27 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v 
-# -- Compiling module MAR
-# 
-# Top level modules:
-# 	MAR
-# End time: 20:45:27 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:27 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v 
-# -- Compiling module sel_enc_log
-# 
-# Top level modules:
-# 	sel_enc_log
-# End time: 20:45:27 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:27 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v 
-# -- Compiling module RAM
-# 
-# Top level modules:
-# 	RAM
-# End time: 20:45:27 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:27 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v 
-# -- Compiling module PC_reg
-# 
-# Top level modules:
-# 	PC_reg
-# End time: 20:45:27 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/elec374cpu/newproject/newproject {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:45:27 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v 
-# -- Compiling module tbld
-# 
-# Top level modules:
-# 	tbld
-# End time: 20:45:27 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
-# End time: 20:45:28 on Mar 27,2024, Elapsed time: 0:04:33
-# Errors: 0, Warnings: 6
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 20:45:28 on Mar 27,2024
-# Loading work.tbld
-# Loading work.DataPath
-# Loading work.register
-# Loading work.PC_reg
-# Loading work.MDMux
-# Loading work.mdrReg
-# Loading work.MAR
-# Loading work.RAM
-# Loading work.alu
-# Loading work.ADD
-# Loading work.AND_mod
-# Loading work.OR_mod
-# Loading work.NOT_mod
-# Loading work.NEG
-# Loading work.MUL
-# Loading work.ROR
-# Loading work.ROL
-# Loading work.SHL
-# Loading work.SHR
-# Loading work.SHRA
-# Loading work.SUB
-# Loading work.DIV
-# Loading work.sel_enc_log
-# Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlftiw8v0f".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftiw8v0f
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-add wave -position end  sim:/tbld/DP/sel_enc_log/gra
-add wave -position end  sim:/tbld/DP/sel_enc_log/grb
-add wave -position end  sim:/tbld/DP/sel_enc_log/grc
-add wave -position end  sim:/tbld/DP/sel_enc_log/ir
-add wave -position end  sim:/tbld/DP/sel_enc_log/rins
-add wave -position end  sim:/tbld/DP/sel_enc_log/routs
-add wave -position end  sim:/tbld/DP/sel_enc_log/s1
-add wave -position end  sim:/tbld/DP/sel_enc_log/s2
-add wave -position end  sim:/tbld/DP/sel_enc_log/s3
-add wave -position end  sim:/tbld/DP/sel_enc_log/s4
-add wave -position end  sim:/tbld/DP/sel_enc_log/decodeOut
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
-add wave -position end  sim:/tbld/DP/rins
-add wave -position end  sim:/tbld/DP/routs
-restart
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'rins'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v(31): [PCDPC] - Port size (16) does not match connection size (1) for port 'routs'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v(11).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
-run 500ns
