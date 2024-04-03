@@ -6,19 +6,22 @@ module DataPath(
 	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, MARout, PORTout,
 	
 	input RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in,
-	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, gra, grb, grc, rin, rout, BAout, IncPC,
+	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, gra, grb, grc, rin, rout, BAout, IncPC, conin,
 	
-	input [15:0] rins, routs
+	input [4:0] ops,
+	
+	input cout
 	
 	);
 
 wire [31:0] BusMuxOut, BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, RYdataout, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO,
-	BusMuxInPC, BusMuxInMDR, BusMuxInPort, BusMuxInIR, address, outputUnit, inputUnit, MDMuxOut, RAM_out;
+	BusMuxInPC, BusMuxInMDR, BusMuxInPort, BusMuxInIR, address, outputUnit, inputUnit, MDMuxOut, RAM_out, C;
 
 wire [63:0] Zregin;
-wire [31:0] cSignExtended;
-wire InPortEnableTemporary;
+wire InPortEnableTemporary, CON;
+
+wire [15:0] rins, routs;
 
 //register RA(clear, clock, RAin, RegisterAImmediate, BusMuxInRA);
 
@@ -54,9 +57,11 @@ MAR MAR (BusMuxOut, MARin, clock, clear, address);
 
 RAM RAM(address, Read, Write, clock, BusMuxOut, RAM_out);
 
-alu alu(BusMuxInIR[31:27], RYdataout, BusMuxOut, Zregin);
+alu alu(ops, RYdataout, BusMuxOut, Zregin);
 
-sel_enc_log sel_enc_log (BusMuxInIR, gra, grb, grc, rin, rout, BAout, rins, routs, cSignExtended);
+sel_enc_log sel_enc_log (BusMuxInIR, gra, grb, grc, rin, rout, BAout, rins, routs, C, cin);
+
+con_ff con_ff(BusMuxOut, BusMuxInIR[22:21], conin, CON);
 
 //Bus bus(BusMuxInRA, BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, 
 //	BusMuxInR9, BusMuxInR10, BusMuxInR11,BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, BusMuxInRZHI, BusMuxInRZLO, 
@@ -89,6 +94,7 @@ Bus Bus (
 	 .BusMuxInPort(BusMuxInPort),
 	 .BusMuxInIR(BusMuxInIR),
 	 .address(address),
+	 .BusMuxInC(C),
 	 .RAout(RAout),
 	 .R0out(routs[0]),
 	 .R1out(routs[1]),
@@ -116,6 +122,7 @@ Bus Bus (
 	 .MDRout(MDRout),
 	 .MARout(MARout),
 	 .PORTout(PORTout),
+	 .cout(cout),
 	 .BusMuxOut(BusMuxOut)
 );	
 	

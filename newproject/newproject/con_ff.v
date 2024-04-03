@@ -1,11 +1,10 @@
 module con_ff(
 	input wire[31:0] BusMuxIn, //needs to be connected to RA
-	input wire[22:19] IR, 
+	input wire[1:0] c2, 
 	input wire enable,
 	output reg CON
 	);
 
-	reg[2:0] c2 = {IR[20],IR[19]};
 	always @(*) begin
     // Default condition if none of the cases match
     CON= 1'b0;

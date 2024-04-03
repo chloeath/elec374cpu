@@ -1,5 +1,5 @@
 Analysis & Elaboration report for cpu2
-Wed Mar 27 20:22:45 2024
+Thu Mar 28 11:07:54 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,14 +10,15 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Analysis & Elaboration Settings
-  5. Port Connectivity Checks: "sel_enc_log:sel_enc_log"
-  6. Port Connectivity Checks: "register:InPort"
-  7. Port Connectivity Checks: "register:R7"
-  8. Port Connectivity Checks: "register:R6"
-  9. Port Connectivity Checks: "register:R5"
- 10. Port Connectivity Checks: "register:R4"
- 11. Analysis & Elaboration Messages
- 12. Analysis & Elaboration Suppressed Messages
+  5. Port Connectivity Checks: "con_ff:con_ff"
+  6. Port Connectivity Checks: "sel_enc_log:sel_enc_log"
+  7. Port Connectivity Checks: "register:InPort"
+  8. Port Connectivity Checks: "register:R7"
+  9. Port Connectivity Checks: "register:R6"
+ 10. Port Connectivity Checks: "register:R5"
+ 11. Port Connectivity Checks: "register:R4"
+ 12. Analysis & Elaboration Messages
+ 13. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -43,7 +44,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Mar 27 20:22:45 2024       ;
+; Analysis & Elaboration Status ; Successful - Thu Mar 28 11:07:54 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; cpu2                                        ;
 ; Top-level Entity Name         ; DataPath                                    ;
@@ -161,13 +162,24 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "sel_enc_log:sel_enc_log"                                                                     ;
-+---------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port          ; Type   ; Severity ; Details                                                                             ;
-+---------------+--------+----------+-------------------------------------------------------------------------------------+
-; cSignExtended ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------------+--------+----------+-------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "con_ff:con_ff"                                                                      ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; CON  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "sel_enc_log:sel_enc_log"                                                                                                                    ;
++---------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                                                                            ;
++---------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------+
+; cSignExtended ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "cSignExtended[31..1]" have no fanouts ;
+; cSignExtended ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                ;
+; cin           ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                ;
++---------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------+
@@ -221,7 +233,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Mar 27 20:22:26 2024
+    Info: Processing started: Thu Mar 28 11:07:41 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu2 -c cpu2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -295,14 +307,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: RAM File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pc_reg.v
     Info (12023): Found entity 1: PC_reg File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file branchtb.v
+    Info (12023): Found entity 1: branchtb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/branchtb.v Line: 2
+Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(62): created implicit net for "BusMuxInC" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 62
+Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(62): created implicit net for "cin" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 62
 Info (12127): Elaborating entity "DataPath" for the top level hierarchy
-Info (12128): Elaborating entity "register" for hierarchy "register:R0" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 25
-Info (12128): Elaborating entity "PC_reg" for hierarchy "PC_reg:PC_reg" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 50
-Info (12128): Elaborating entity "MDMux" for hierarchy "MDMux:MDMUX" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 51
-Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 52
-Info (12128): Elaborating entity "MAR" for hierarchy "MAR:MAR" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 53
-Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 55
-Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 57
+Info (12128): Elaborating entity "register" for hierarchy "register:R0" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 28
+Info (12128): Elaborating entity "PC_reg" for hierarchy "PC_reg:PC_reg" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 53
+Info (12128): Elaborating entity "MDMux" for hierarchy "MDMux:MDMUX" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 54
+Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 55
+Info (12128): Elaborating entity "MAR" for hierarchy "MAR:MAR" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 56
+Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 58
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 60
 Warning (10270): Verilog HDL Case Statement warning at alu.v(37): incomplete case statement has no default case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v Line: 37
 Warning (10240): Verilog HDL Always Construct warning at alu.v(37): inferring latch(es) for variable "Zregin", which holds its previous value in one or more paths through the always construct File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v Line: 37
 Info (10041): Inferred latch for "Zregin[0]" at alu.v(37) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v Line: 37
@@ -385,48 +401,50 @@ Info (12128): Elaborating entity "SHRA" for hierarchy "alu:alu|SHRA:SHRA" File: 
 Warning (10764): Verilog HDL warning at SHRA.v(10): converting signed shift amount to unsigned File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v Line: 10
 Info (12128): Elaborating entity "SUB" for hierarchy "alu:alu|SUB:SUB" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v Line: 27
 Info (12128): Elaborating entity "DIV" for hierarchy "alu:alu|DIV:DIV" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/alu.v Line: 28
-Info (12128): Elaborating entity "sel_enc_log" for hierarchy "sel_enc_log:sel_enc_log" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 59
-Warning (10230): Verilog HDL assignment warning at sel_enc_log.v(28): truncated value with size 33 to match size of target (32) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v Line: 28
-Info (12128): Elaborating entity "Bus" for hierarchy "Bus:Bus" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 120
+Info (12128): Elaborating entity "sel_enc_log" for hierarchy "sel_enc_log:sel_enc_log" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 62
+Warning (10034): Output port "cin" at sel_enc_log.v(7) has no driver File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v Line: 7
+Info (12128): Elaborating entity "con_ff" for hierarchy "con_ff:con_ff" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 64
+Info (12128): Elaborating entity "Bus" for hierarchy "Bus:Bus" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v Line: 127
 Warning (10240): Verilog HDL Always Construct warning at Bus.v(15): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 15
-Info (10041): Inferred latch for "q[0]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[1]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[2]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[3]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[4]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[5]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[6]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[7]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[8]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[9]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[10]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[11]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[12]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[13]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[14]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[15]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[16]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[17]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[18]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[19]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[20]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[21]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[22]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[23]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[24]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[25]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[26]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[27]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[28]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[29]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[30]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
-Info (10041): Inferred latch for "q[31]" at Bus.v(40) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 40
+Info (10041): Inferred latch for "q[0]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[1]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[2]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[3]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[4]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[5]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[6]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[7]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[8]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[9]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[10]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[11]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[12]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[13]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[14]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[15]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[16]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[17]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[18]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[19]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[20]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[21]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[22]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[23]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[24]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[25]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[26]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[27]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[28]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[29]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[30]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Info (10041): Inferred latch for "q[31]" at Bus.v(41) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v Line: 41
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/output_files/cpu2.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4785 megabytes
-    Info: Processing ended: Wed Mar 27 20:22:46 2024
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:07
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 15 warnings
+    Info: Peak virtual memory: 4789 megabytes
+    Info: Processing ended: Thu Mar 28 11:07:54 2024
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:09
 
 
 +--------------------------------------------+

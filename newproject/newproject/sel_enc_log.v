@@ -2,7 +2,8 @@ module sel_enc_log(
 	input [31:0] ir,
 	input gra, grb, grc, rin, rout, BAout,
 	output [15:0] rins, routs,
-	output [31:0] cSignExtended
+	output [31:0] cSignExtended,
+	output cin
 );
 
 wire [3:0] s1, s2, s3, s4;
@@ -25,6 +26,6 @@ assign s5 = BAout | rout;
 
 assign routs= {16{s5}} & decodeOut;
 
-assign cSignExtended = {{14{ir[18]}}, ir[18:0]};
+assign cSignExtended = {{13{ir[18]}}, ir[18:0]};
 
 endmodule

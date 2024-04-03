@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/simulation/modelsim
 vADD
-Z1 !s110 1711586726
+Z1 !s110 1711767371
 !i10b 1
 !s100 jjS_=4;VWJ?7Un^aeaj:S0
 IX_J0YIbU3JMCooQ]7HCJa1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1711586726.000000
+Z5 !s108 1711767371.000000
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ADD.v|
 !i113 1
@@ -54,7 +54,7 @@ R6
 R7
 R8
 vAND_mod
-R1
+Z10 !s110 1711767372
 !i10b 1
 !s100 =i1;4KAfWf4i73P;if>_i2
 IYjdhJ6z[_2BBLAkRV9:6_0
@@ -68,7 +68,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z11 !s108 1711767372.000000
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/AND_mod.v|
 !i113 1
@@ -76,14 +76,36 @@ R6
 R7
 R8
 n@a@n@d_mod
-vBus
-Z10 !s110 1711586725
+vbranchtb
+Z12 !s110 1711767373
 !i10b 1
-!s100 VAaUYdnH7OBTmUzZFcP;S0
-I`:^V9oK9XV`lOh_]7C0@D2
+!s100 aGA_mYfbk0`Zb34`o0Czo1
+IfB2T>e;o:0o<]`O<b2dK`3
 R2
 R0
-R9
+w1711766482
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/branchtb.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/branchtb.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z13 !s108 1711767373.000000
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/branchtb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/branchtb.v|
+!i113 1
+R6
+R7
+R8
+vBus
+R1
+!i10b 1
+!s100 gS<IFVSTUzIeomI6L6LUb3
+IC7hmiPC<J[7`9Gf35_Igh0
+R2
+R0
+w1711638458
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v
 L0 1
@@ -91,7 +113,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1711586725.000000
+R5
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/Bus.v|
 !i113 1
@@ -99,14 +121,36 @@ R6
 R7
 R8
 n@bus
-vDataPath
+vcon_ff
 R10
 !i10b 1
-!s100 fzN>LkfS5l9i?mc:G4F[@3
-I9KYPS7EG;]HR^SdaG`?YO3
+!s100 NMYi_?4C0`Bg4N[_Ea0?V0
+IkjHbJKKbfQ[cK0;k<YZMC1
 R2
 R0
-w1711584792
+w1711636886
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/con_ff.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/con_ff.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/con_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/con_ff.v|
+!i113 1
+R6
+R7
+R8
+vDataPath
+R1
+!i10b 1
+!s100 <H>WOgnh8c__hMhAobERm1
+I`dmai<GM3OMOLHMa_2YRS0
+R2
+R0
+Z14 w1711767355
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v
 L0 1
@@ -114,7 +158,7 @@ R4
 r1
 !s85 0
 31
-R11
+R5
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DataPath.v|
 !i113 1
@@ -123,13 +167,13 @@ R7
 R8
 n@data@path
 vDIV
-R1
+R10
 !i10b 1
 !s100 a>lcMNYJUY;hnL=KkQc[c3
 IIC[Qezii35D2FkCZR;>;m0
 R2
 R0
-Z12 w1711032868
+Z15 w1711032868
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v
 L0 1
@@ -137,7 +181,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/DIV.v|
 !i113 1
@@ -146,7 +190,7 @@ R7
 R8
 n@d@i@v
 vMAR
-Z13 !s110 1711586727
+R10
 !i10b 1
 !s100 ?zUNPNSlG;Aa3=1McScM52
 IEz`9n4:hD;>J`4GY^D36V3
@@ -160,7 +204,7 @@ R4
 r1
 !s85 0
 31
-Z14 !s108 1711586727.000000
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MAR.v|
 !i113 1
@@ -169,13 +213,13 @@ R7
 R8
 n@m@a@r
 vMDMux
-R13
+R10
 !i10b 1
 !s100 Ae8;fnCIaTSm`^jj_P9i71
 I`HMNei[zO5h^AzGZW8L6B0
 R2
 R0
-R12
+R15
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v
 L0 1
@@ -183,7 +227,7 @@ R4
 r1
 !s85 0
 31
-R14
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MDMux.v|
 !i113 1
@@ -198,7 +242,7 @@ R1
 I>f2TkjCee:ogKcWI^6>P12
 R2
 R0
-R12
+R15
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v
 L0 1
@@ -206,7 +250,7 @@ R4
 r1
 !s85 0
 31
-R11
+R5
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/mdrReg.v|
 !i113 1
@@ -215,13 +259,13 @@ R7
 R8
 nmdr@reg
 vMUL
-R1
+R10
 !i10b 1
 !s100 b1a3S0F5UmHE=Q`A6LDJ]1
 IJVnGA0koVcWMS>[gRgMVj3
 R2
 R0
-R12
+R15
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v
 L0 1
@@ -229,7 +273,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/MUL.v|
 !i113 1
@@ -261,7 +305,7 @@ R7
 R8
 n@n@e@g
 vNOT_mod
-R1
+R10
 !i10b 1
 !s100 d304CD_L>0Ab6S`MLSF7G2
 IV_KiDC6CB0gj?M5:JjDYF0
@@ -275,7 +319,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/NOT_mod.v|
 !i113 1
@@ -284,7 +328,7 @@ R7
 R8
 n@n@o@t_mod
 vOR_mod
-R1
+R10
 !i10b 1
 !s100 XbE86ZGI:W<NZAAYdBAz>0
 I[>ZYHfgD><[6266;7M5N91
@@ -298,7 +342,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/OR_mod.v|
 !i113 1
@@ -307,7 +351,7 @@ R7
 R8
 n@o@r_mod
 vPC_reg
-R13
+R12
 !i10b 1
 !s100 3;lTceYZHNZ`?dk_2`8KG1
 IJFb0hHgKC6[MHIRmS6Qd?2
@@ -321,7 +365,7 @@ R4
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/PC_reg.v|
 !i113 1
@@ -330,13 +374,13 @@ R7
 R8
 n@p@c_reg
 vRAM
-R13
+R12
 !i10b 1
-!s100 OVm^UZ]LY[]cd7EVT]7>G2
-IRd_<RCVBe^7FOEFVEz8Af1
+!s100 [eV5Ti5?nOb`17GhONcaM1
+I5XV=e;i0[8a7P@>h?k9bH1
 R2
 R0
-w1711586419
+R14
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v
 L0 1
@@ -344,7 +388,7 @@ R4
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/RAM.v|
 !i113 1
@@ -353,7 +397,7 @@ R7
 R8
 n@r@a@m
 vregister
-R10
+R1
 !i10b 1
 !s100 :MULHfDHL[OWdRU[^d_hJ1
 I7b4lmSS:lcnV:NP<o88?N0
@@ -367,7 +411,7 @@ R4
 r1
 !s85 0
 31
-R11
+R5
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/register.v|
 !i113 1
@@ -375,7 +419,7 @@ R6
 R7
 R8
 vROL
-R1
+R10
 !i10b 1
 !s100 OKIZQiTf0UI:X2hW76;XV1
 I75K3zCXS3=YG6SA?G5oG]1
@@ -389,7 +433,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROL.v|
 !i113 1
@@ -398,7 +442,7 @@ R7
 R8
 n@r@o@l
 vROR
-R1
+R10
 !i10b 1
 !s100 _E0O_9Wo5^;7fIA^I;h`]2
 IUIE[bjbSBTO[ce]bW]zjZ3
@@ -412,7 +456,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/ROR.v|
 !i113 1
@@ -421,13 +465,13 @@ R7
 R8
 n@r@o@r
 vsel_enc_log
-R13
+R12
 !i10b 1
-!s100 Jn3?mI6]C<8hGmU7N?G<b0
-I73AMh<S@oid7A^IY8_;Iz1
+!s100 kSS=Tl1[jAU3XX6A`2<Q61
+ISTiRjPOL>bVEJooNW[72R3
 R2
 R0
-Z15 w1711586703
+w1711638206
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v
 L0 1
@@ -435,7 +479,7 @@ R4
 r1
 !s85 0
 31
-R14
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/sel_enc_log.v|
 !i113 1
@@ -489,7 +533,7 @@ R7
 R8
 n@s@h@r
 vSHRA
-R1
+R10
 !i10b 1
 !s100 dYmMhmZDEeJV[2`=MG9DP2
 IMbGl;z`lE6]Kdc57c1i^o2
@@ -503,7 +547,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SHRA.v|
 !i113 1
@@ -512,7 +556,7 @@ R7
 R8
 n@s@h@r@a
 vSUB
-R1
+R10
 !i10b 1
 !s100 eU2>iaRQ8>JFE5BeIbWXM3
 IE21l>i3bCOVVnN;mYT[aH3
@@ -526,7 +570,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/SUB.v|
 !i113 1
@@ -534,25 +578,3 @@ R6
 R7
 R8
 n@s@u@b
-vtbld
-R13
-!i10b 1
-!s100 jk8^:P:bJ^d9Zh4aSBDjb0
-I8AW_OOa@`9n@_OOl>g8XS2
-R2
-R0
-R15
-8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v
-FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v
-L0 2
-R4
-r1
-!s85 0
-31
-R14
-!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/elec374cpu/newproject/newproject/tbld.v|
-!i113 1
-R6
-R7
-R8
