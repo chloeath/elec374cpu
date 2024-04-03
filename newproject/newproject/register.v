@@ -9,6 +9,9 @@ always @ (posedge clock)
 		begin 
 			if (clear) begin
 				q <= {32{1'b0}};
+				//q <= {32{1'b1}};
+				//q<= 32'h43;  // to hardcode 
+				//q<= 32'd10;
 			end
 			else if (enable) begin
 				q <= BusMuxOut;

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for cpu2
-Sat Mar 30 15:43:06 2024
+Wed Apr 03 11:28:39 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,14 +10,19 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Analysis & Elaboration Settings
-  5. Port Connectivity Checks: "alu:alu"
-  6. Port Connectivity Checks: "register:InPort"
-  7. Port Connectivity Checks: "register:R7"
-  8. Port Connectivity Checks: "register:R6"
-  9. Port Connectivity Checks: "register:R5"
- 10. Port Connectivity Checks: "register:R4"
- 11. Analysis & Elaboration Messages
- 12. Analysis & Elaboration Suppressed Messages
+  5. Port Connectivity Checks: "sel_enc_log:sel_enc_log"
+  6. Port Connectivity Checks: "alu:alu"
+  7. Port Connectivity Checks: "register:OutPort"
+  8. Port Connectivity Checks: "register:InPort"
+  9. Port Connectivity Checks: "register:LO"
+ 10. Port Connectivity Checks: "register:HI"
+ 11. Port Connectivity Checks: "register:R7"
+ 12. Port Connectivity Checks: "register:R6"
+ 13. Port Connectivity Checks: "register:R5"
+ 14. Port Connectivity Checks: "register:R4"
+ 15. Port Connectivity Checks: "register:R3"
+ 16. Analysis & Elaboration Messages
+ 17. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -43,7 +48,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sat Mar 30 15:43:06 2024       ;
+; Analysis & Elaboration Status ; Successful - Wed Apr 03 11:28:39 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; cpu2                                        ;
 ; Top-level Entity Name         ; DataPath                                    ;
@@ -161,6 +166,15 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "sel_enc_log:sel_enc_log"                                                               ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; rins[3] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "alu:alu"                                                                                                                                                                          ;
 +------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -171,12 +185,40 @@ refer to the applicable agreement for further details.
 
 
 +--------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "register:InPort"                                                                        ;
+; Port Connectivity Checks: "register:OutPort"                                                                       ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port     ; Type   ; Severity ; Details                                                                             ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 ; BusMuxIn ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "register:InPort" ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; enable    ; Input ; Info     ; Stuck at VCC ;
+; BusMuxOut ; Input ; Info     ; Stuck at VCC ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "register:LO"     ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; BusMuxOut ; Input ; Info     ; Stuck at VCC ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "register:HI"     ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; BusMuxOut ; Input ; Info     ; Stuck at VCC ;
++-----------+-------+----------+--------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------+
@@ -215,13 +257,24 @@ refer to the applicable agreement for further details.
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++----------------------------------------------------+
+; Port Connectivity Checks: "register:R3"            ;
++------------------+-------+----------+--------------+
+; Port             ; Type  ; Severity ; Details      ;
++------------------+-------+----------+--------------+
+; BusMuxOut[3..2]  ; Input ; Info     ; Stuck at VCC ;
+; BusMuxOut[31..4] ; Input ; Info     ; Stuck at GND ;
+; BusMuxOut[1..0]  ; Input ; Info     ; Stuck at GND ;
++------------------+-------+----------+--------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Mar 30 15:42:51 2024
+    Info: Processing started: Wed Apr 03 11:28:25 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu2 -c cpu2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -277,8 +330,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
     Info (12023): Found entity 1: register_R0 File: C:/Users/chloe/374project/newproject/newproject/register_R0.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file con_ff.v
     Info (12023): Found entity 1: con_ff File: C:/Users/chloe/374project/newproject/newproject/con_ff.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file ram_tb.v
-    Info (12023): Found entity 1: RAM_tb File: C:/Users/chloe/374project/newproject/newproject/RAM_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file mdmux.v
     Info (12023): Found entity 1: MDMux File: C:/Users/chloe/374project/newproject/newproject/MDMux.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mar.v
@@ -287,59 +338,69 @@ Info (12021): Found 1 design units, including 1 entities, in source file tbld.v
     Info (12023): Found entity 1: tbld File: C:/Users/chloe/374project/newproject/newproject/tbld.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file sel_enc_log.v
     Info (12023): Found entity 1: sel_enc_log File: C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v Line: 1
-Warning (10229): Verilog HDL Expression warning at store_tb.v(53): truncated literal to match 4 bits File: C:/Users/chloe/374project/newproject/newproject/store_tb.v Line: 53
-Warning (10229): Verilog HDL Expression warning at store_tb.v(73): truncated literal to match 4 bits File: C:/Users/chloe/374project/newproject/newproject/store_tb.v Line: 73
-Info (12021): Found 1 design units, including 1 entities, in source file store_tb.v
-    Info (12023): Found entity 1: store_tb File: C:/Users/chloe/374project/newproject/newproject/store_tb.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: RAM File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pc_reg.v
     Info (12023): Found entity 1: PC_reg File: C:/Users/chloe/374project/newproject/newproject/PC_reg.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ldi_tb.v
+    Info (12023): Found entity 1: ldi_tb File: C:/Users/chloe/374project/newproject/newproject/ldi_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file st_tb.v
+    Info (12023): Found entity 1: st_tb File: C:/Users/chloe/374project/newproject/newproject/st_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file addi_tb.v
+    Info (12023): Found entity 1: addi_tb File: C:/Users/chloe/374project/newproject/newproject/addi_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file mfhi_tb.v
+    Info (12023): Found entity 1: mfhi_tb File: C:/Users/chloe/374project/newproject/newproject/mfhi_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file mflo_tb.v
+    Info (12023): Found entity 1: mflo_tb File: C:/Users/chloe/374project/newproject/newproject/mflo_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file out_tb.v
+    Info (12023): Found entity 1: out_tb File: C:/Users/chloe/374project/newproject/newproject/out_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file in_tb.v
+    Info (12023): Found entity 1: in_tb File: C:/Users/chloe/374project/newproject/newproject/in_tb.v Line: 2
 Info (12127): Elaborating entity "DataPath" for the top level hierarchy
-Info (12128): Elaborating entity "register_R0" for hierarchy "register_R0:R0" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 25
-Info (12128): Elaborating entity "register" for hierarchy "register:R1" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 26
-Info (12128): Elaborating entity "PC_reg" for hierarchy "PC_reg:PC_reg" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 50
-Info (12128): Elaborating entity "MDMux" for hierarchy "MDMux:MDMUX" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 51
-Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 52
-Info (12128): Elaborating entity "MAR" for hierarchy "MAR:MAR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 53
-Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 55
-Warning (10235): Verilog HDL Always Construct warning at RAM.v(17): variable "address" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 17
-Warning (10235): Verilog HDL Always Construct warning at RAM.v(19): variable "Mdatain" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 19
-Warning (10235): Verilog HDL Always Construct warning at RAM.v(19): variable "address" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 19
-Warning (10240): Verilog HDL Always Construct warning at RAM.v(15): inferring latch(es) for variable "Q", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[0]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[1]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[2]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[3]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[4]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[5]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[6]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[7]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[8]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[9]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[10]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[11]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[12]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[13]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[14]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[15]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[16]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[17]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[18]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[19]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[20]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[21]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[22]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[23]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[24]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[25]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[26]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[27]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[28]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[29]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[30]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (10041): Inferred latch for "Q[31]" at RAM.v(15) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 15
-Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 57
+Info (12128): Elaborating entity "register_R0" for hierarchy "register_R0:R0" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 28
+Info (12128): Elaborating entity "register" for hierarchy "register:R1" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 29
+Info (12128): Elaborating entity "PC_reg" for hierarchy "PC_reg:PC_reg" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 57
+Info (12128): Elaborating entity "MDMux" for hierarchy "MDMux:MDMUX" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 58
+Info (12128): Elaborating entity "mdrReg" for hierarchy "mdrReg:MDR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 59
+Info (12128): Elaborating entity "MAR" for hierarchy "MAR:MAR" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 60
+Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 62
+Warning (10235): Verilog HDL Always Construct warning at RAM.v(35): variable "address" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 35
+Warning (10235): Verilog HDL Always Construct warning at RAM.v(37): variable "Mdatain" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 37
+Warning (10235): Verilog HDL Always Construct warning at RAM.v(37): variable "address" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 37
+Warning (10240): Verilog HDL Always Construct warning at RAM.v(33): inferring latch(es) for variable "Q", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[0]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[1]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[2]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[3]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[4]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[5]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[6]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[7]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[8]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[9]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[10]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[11]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[12]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[13]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[14]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[15]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[16]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[17]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[18]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[19]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[20]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[21]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[22]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[23]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[24]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[25]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[26]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[27]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[28]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[29]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[30]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (10041): Inferred latch for "Q[31]" at RAM.v(33) File: C:/Users/chloe/374project/newproject/newproject/RAM.v Line: 33
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 64
 Warning (10270): Verilog HDL Case Statement warning at alu.v(37): incomplete case statement has no default case item File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
 Warning (10240): Verilog HDL Always Construct warning at alu.v(37): inferring latch(es) for variable "Zregin", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
 Info (10041): Inferred latch for "Zregin[0]" at alu.v(37) File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 37
@@ -422,9 +483,9 @@ Info (12128): Elaborating entity "SHRA" for hierarchy "alu:alu|SHRA:SHRA" File: 
 Warning (10764): Verilog HDL warning at SHRA.v(10): converting signed shift amount to unsigned File: C:/Users/chloe/374project/newproject/newproject/SHRA.v Line: 10
 Info (12128): Elaborating entity "SUB" for hierarchy "alu:alu|SUB:SUB" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 27
 Info (12128): Elaborating entity "DIV" for hierarchy "alu:alu|DIV:DIV" File: C:/Users/chloe/374project/newproject/newproject/alu.v Line: 28
-Info (12128): Elaborating entity "sel_enc_log" for hierarchy "sel_enc_log:sel_enc_log" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 59
+Info (12128): Elaborating entity "sel_enc_log" for hierarchy "sel_enc_log:sel_enc_log" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 66
 Warning (10230): Verilog HDL assignment warning at sel_enc_log.v(31): truncated value with size 33 to match size of target (32) File: C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v Line: 31
-Info (12128): Elaborating entity "Bus" for hierarchy "Bus:Bus" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 120
+Info (12128): Elaborating entity "Bus" for hierarchy "Bus:Bus" File: C:/Users/chloe/374project/newproject/newproject/DataPath.v Line: 127
 Warning (10240): Verilog HDL Always Construct warning at Bus.v(15): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 15
 Info (10041): Inferred latch for "q[0]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
 Info (10041): Inferred latch for "q[1]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
@@ -460,10 +521,10 @@ Info (10041): Inferred latch for "q[30]" at Bus.v(40) File: C:/Users/chloe/374pr
 Info (10041): Inferred latch for "q[31]" at Bus.v(40) File: C:/Users/chloe/374project/newproject/newproject/Bus.v Line: 40
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/chloe/374project/newproject/newproject/output_files/cpu2.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4784 megabytes
-    Info: Processing ended: Sat Mar 30 15:43:06 2024
-    Info: Elapsed time: 00:00:15
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 15 warnings
+    Info: Peak virtual memory: 4785 megabytes
+    Info: Processing ended: Wed Apr 03 11:28:39 2024
+    Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:12
 
 

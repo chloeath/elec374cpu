@@ -1,3 +1,2 @@
 Warning (10268): Verilog HDL information at mdrReg.v(10): always construct contains both blocking and non-blocking assignments File: C:/Users/chloe/374project/newproject/newproject/mdrReg.v Line: 10
 Info (10281): Verilog HDL Declaration information at MAR.v(7): object "Q" differs only in case from object "q" in the same scope File: C:/Users/chloe/374project/newproject/newproject/MAR.v Line: 7
-Warning (10268): Verilog HDL information at store_tb.v(37): always construct contains both blocking and non-blocking assignments File: C:/Users/chloe/374project/newproject/newproject/store_tb.v Line: 37

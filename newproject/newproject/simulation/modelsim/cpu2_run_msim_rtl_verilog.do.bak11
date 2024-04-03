@@ -30,9 +30,9 @@ vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newpr
 vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/RAM.v}
 vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/PC_reg.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/tbld.v}
+vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/out_tb.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  out_tb
 
 add wave *
 view structure

@@ -12,260 +12,260 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/Bus.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:51 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/Bus.v 
 # -- Compiling module Bus
 # 
 # Top level modules:
 # 	Bus
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:51 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/DataPath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:51 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/DataPath.v 
 # -- Compiling module DataPath
 # 
 # Top level modules:
 # 	DataPath
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:51 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/register.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:51 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/register.v 
 # -- Compiling module register
 # 
 # Top level modules:
 # 	register
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:51 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/mdrReg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/mdrReg.v 
 # -- Compiling module mdrReg
 # 
 # Top level modules:
 # 	mdrReg
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ADD.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ADD.v 
 # -- Compiling module ADD
 # 
 # Top level modules:
 # 	ADD
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/NEG.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/NEG.v 
 # -- Compiling module NEG
 # 
 # Top level modules:
 # 	NEG
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHL.v 
 # -- Compiling module SHL
 # 
 # Top level modules:
 # 	SHL
-# End time: 15:43:51 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:51 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHR.v 
 # -- Compiling module SHR
 # 
 # Top level modules:
 # 	SHR
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:01
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SHRA.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SHRA.v 
 # -- Compiling module SHRA
 # 
 # Top level modules:
 # 	SHRA
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/AND_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/AND_mod.v 
 # -- Compiling module AND_mod
 # 
 # Top level modules:
 # 	AND_mod
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/OR_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/OR_mod.v 
 # -- Compiling module OR_mod
 # 
 # Top level modules:
 # 	OR_mod
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ROL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ROL.v 
 # -- Compiling module ROL
 # 
 # Top level modules:
 # 	ROL
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/ROR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/ROR.v 
 # -- Compiling module ROR
 # 
 # Top level modules:
 # 	ROR
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MUL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MUL.v 
 # -- Compiling module MUL
 # 
 # Top level modules:
 # 	MUL
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/NOT_mod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/NOT_mod.v 
 # -- Compiling module NOT_mod
 # 
 # Top level modules:
 # 	NOT_mod
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:52 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/SUB.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:52 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/SUB.v 
 # -- Compiling module SUB
 # 
 # Top level modules:
 # 	SUB
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/DIV.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/DIV.v 
 # -- Compiling module DIV
 # 
 # Top level modules:
 # 	DIV
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/register_R0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/register_R0.v 
 # -- Compiling module register_R0
 # 
 # Top level modules:
 # 	register_R0
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MDMux.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:52 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MDMux.v 
 # -- Compiling module MDMux
 # 
 # Top level modules:
 # 	MDMux
-# End time: 15:43:52 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/MAR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:53 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/MAR.v 
 # -- Compiling module MAR
 # 
 # Top level modules:
 # 	MAR
-# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:53 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/sel_enc_log.v 
 # -- Compiling module sel_enc_log
 # 
 # Top level modules:
 # 	sel_enc_log
-# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/RAM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:53 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/RAM.v 
 # -- Compiling module RAM
 # 
 # Top level modules:
 # 	RAM
-# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/PC_reg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:53 on Mar 30,2024
+# Start time: 11:28:53 on Apr 03,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/PC_reg.v 
 # -- Compiling module PC_reg
 # 
 # Top level modules:
 # 	PC_reg
-# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/tbld.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/chloe/374project/newproject/newproject {C:/Users/chloe/374project/newproject/newproject/out_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:43:53 on Mar 30,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/tbld.v 
-# -- Compiling module tbld
+# Start time: 11:28:53 on Apr 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chloe/374project/newproject/newproject" C:/Users/chloe/374project/newproject/newproject/out_tb.v 
+# -- Compiling module out_tb
 # 
 # Top level modules:
-# 	tbld
-# End time: 15:43:53 on Mar 30,2024, Elapsed time: 0:00:00
+# 	out_tb
+# End time: 11:28:53 on Apr 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tbld
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tbld 
-# Start time: 15:43:53 on Mar 30,2024
-# Loading work.tbld
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  out_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" out_tb 
+# Start time: 11:28:53 on Apr 03,2024
+# Loading work.out_tb
 # Loading work.DataPath
 # Loading work.register_R0
 # Loading work.register
@@ -290,28 +290,31 @@
 # Loading work.DIV
 # Loading work.sel_enc_log
 # Loading work.Bus
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(33): [PCDPC] - Port size (32) does not match connection size (5) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(57): [PCDPC] - Port size (5) does not match connection size (32) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/alu.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/alu File: C:/Users/chloe/374project/newproject/newproject/alu.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/out_tb.v(21): [PCDPC] - Port size (32) does not match connection size (5) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /out_tb/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(64): [PCDPC] - Port size (5) does not match connection size (32) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/alu.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /out_tb/DP/alu File: C:/Users/chloe/374project/newproject/newproject/alu.v
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: itsma  Hostname: DESKTOP-4HCCLL1  ProcessID: 11932
-#           Attempting to use alternate WLF file "./wlft77aihf".
+#           Attempting to use alternate WLF file "./wlftb29znf".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft77aihf
+#           Using alternate file: ./wlftb29znf
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 500 ns
-add wave -position end sim:/tbld/DP/R2/*
+add wave -position end sim:/out_tb/DP/OutPort/*
+restatr
+# invalid command name "restatr"
 restart
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/tbld.v(33): [PCDPC] - Port size (32) does not match connection size (5) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
-# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(57): [PCDPC] - Port size (5) does not match connection size (32) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/alu.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /tbld/DP/alu File: C:/Users/chloe/374project/newproject/newproject/alu.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/out_tb.v(21): [PCDPC] - Port size (32) does not match connection size (5) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/DataPath.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /out_tb/DP File: C:/Users/chloe/374project/newproject/newproject/DataPath.v
+# ** Warning: (vsim-3015) C:/Users/chloe/374project/newproject/newproject/DataPath.v(64): [PCDPC] - Port size (5) does not match connection size (32) for port 'ops'. The port definition is at: C:/Users/chloe/374project/newproject/newproject/alu.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /out_tb/DP/alu File: C:/Users/chloe/374project/newproject/newproject/alu.v
 run 500ns
-# End time: 20:13:40 on Mar 30,2024, Elapsed time: 4:29:47
-# Errors: 0, Warnings: 6
+add wave -position end sim:/out_tb/DP/R3/*
+# End time: 14:25:21 on Apr 03,2024, Elapsed time: 2:56:28
+# Errors: 1, Warnings: 6
