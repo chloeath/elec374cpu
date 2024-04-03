@@ -6,9 +6,11 @@ reg RAout, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, R9out,
 	RYout, RZHIout, RZLOout, PCout, IRout, HIout, LOout, MDRout, MARout, PORTout;
 
 reg RAin, R0in, R1in, R2in, R3in, R4in, R5in, R6in, R7in, R8in, R9in, R10in, R11in, R12in, R13in, R14in, R15in, 
-	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, IncPC, grb, BAout, Yin, Cout, gra, grc, rins, routs, rin, rout;
+	RYin, RZin, PCin, IRin, HIin, LOin, MDRin, MARin, PORTin, Read, Write, IncPC, grb, BAout, rin, rout, Yin, Cout, gra, grc;
 
 reg [31:0] Mdatain;
+
+reg [15:0] rins, routs;
 
 
 reg [4:0] ops;
@@ -32,6 +34,7 @@ DataPath DP(
 	.clock(clock),
 	.clear(clear),
 	.Mdatain(Mdatain),
+	.ops(ops),
 	.RAout(RAout),
 	 .R0out(R0out),
 	 .R1out(R1out),
@@ -59,6 +62,7 @@ DataPath DP(
 	 .MDRout(MDRout),
 	 .MARout(MARout),
 	 .PORTout(PORTout),
+	 .Cout(Cout),
 	 .RAin(RAin),
 	 .R0in(R0in),
 	 .R1in(R1in),
@@ -93,9 +97,9 @@ DataPath DP(
 	 .rin(rin),
 	 .rout(rout),
 	 .BAout(BAout),
-	 .IncPC(IncPC),
-	 .rins(rins),
-	 .routs(routs)
+	 .IncPC(IncPC)
+	 //.rins(rins),
+	 //.routs(routs)
 	);
 
 parameter init = 4'd1, T0 = 4'd2, T1 = 4'd3, T2 = 4'd4, T3 = 4'd5, T4 = 4'd6, T5 = 4'd7, T6 = 4'd8, T7 = 4'd9;
@@ -120,36 +124,36 @@ always @(present_state) begin
 			#10 clear <= 0;
 		end
 		T0: begin		
-			PCout <= 1; MARin <= 1; IncPC <= 1; RZin <= 1;
+			PCout <= 1; MARin <= 1; IncPC <= 1; RZin <= 1; //put value of PC in MAR
 			#15 PCout <= 0; MARin <= 0; IncPC <= 0; RZin <= 0;
 		end
 		T1: begin
-			RZLOout <=1; PCin <=1; Read <=1; MDRin<=1;
-			#15 RZLOout <=0;PCin <=0;  MDRin<=0; //Read <=0;
+			RZLOout <=1; PCin <=1; Read <=1; MDRin<=1;  // put value of RAM[MAR] in MDR
+			#15 RZLOout <=0;PCin <=0;  MDRin<=0; Read <=0;
 		end		
 		T2: begin
-			MDRout <= 1; IRin <=1;
+			MDRout <= 1; IRin <=1;  //put value of MDR in IR
 			#15 MDRout <= 0; IRin <=0;
 		end
 		T3: begin
-			MDRout <= 1; R2in <= 1;
-			#15 MDRout <= 0; R2in <= 0;
+			grb <=1; BAout<=1; RYin <=1;   //load RY with  address from RB (0)
+			#15 grb<=0; BAout<=0; RYin<=0;
 		end	
 		T4: begin
-			Cout <=1;  RZin<=1; ops <= 00011;
+			Cout <=1;  RZin<=1; ops <= 5'b00011;  // load B of alu with immediate addres and add with RY (RB)
 			#15 Cout <=0;  RZin<=0;
 		end
 		T5: begin
-			RZLOout <= 1; MARin <= 1;
+			RZLOout <= 1; MARin <= 1;  //put calculated address in MAR
 			#15 RZLOout <= 0; MARin <= 0;
 		end
 		T6: begin
-			Read <= 1; MDRin<= 1;
+			Read <= 1; MDRin<= 1;  //find the value at that address in RAM and put it in MDR
 			#15 Read <= 0; MDRin<= 0;
 		end
 		T7: begin
-			MDRout <= 1; gra <=1; MDRin<=1; rin<=1;
-			#15 MDRout <= 0; gra <=0; MDRin<=0;
+			MDRout <= 1; gra <=1; rin <= 1; //take value in MDR and put in R2
+			#15 MDRout <= 0; gra <=0; rin<=0;
 		end
 	endcase
 end

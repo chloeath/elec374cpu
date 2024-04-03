@@ -3,7 +3,7 @@ module register_R0(
     input wire clr,     // Clear input (synchronous reset)
     input wire enable,  // Enable input
     input wire BAout,   // Control signal to output zeros
-    input wire [31:0] BusMuxOut,// Data input
+    input [31:0] BusMuxOut,// Data input
     output wire [31:0] BusMuxIn_R0// Data output
 );
 reg [31:0]q;
@@ -18,6 +18,6 @@ always @(posedge clk) begin
 end
 
 // Output zero when BAout is asserted
-assign BusMuxIn_R0 = (BAout) ? 32'b0 : q;
+assign BusMuxIn_R0 = (BAout==1) ? 32'b0 : q;
 
 endmodule
